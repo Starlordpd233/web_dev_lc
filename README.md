@@ -13,6 +13,7 @@
   "version": 1,
   "updated": "YYYY-MM-DD",
   "school": "Loomis Chaffee",
+  "Location": "Windsor, CT",
   "courses": [
     {
       "id": "unique-id",
