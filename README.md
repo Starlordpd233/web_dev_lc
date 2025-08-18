@@ -12,7 +12,7 @@
 {
   "version": 1,
   "updated": "YYYY-MM-DD",
-  "school": "Your School",
+  "school": "Loomis Chaffee",
   "courses": [
     {
       "id": "unique-id",
