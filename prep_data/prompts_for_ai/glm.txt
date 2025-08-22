@@ -1,30 +1,71 @@
-The attached PDF is a document containing the information on course offerings and their descriptions. 
+
+
+Carefully analyze the attached PDF, take as long as you need. It is a document containing the information on course offerings and their descriptions. 
 I need to transform this PDF into accurate conversion into markdown file that I will later use, which is a better format for data collection 
-of this document than PDF. What's very annoying about this PDF is that it's not written and organized in a typical PDF. As you can see in the PDF, 
-it is composed of little rectangular sections of courses; each little section is an own course, with the course title as the first line 
-(may contain the phrase "GESC" or not; wrap it in a parenthesis in the markdown file if it appears after the title of the course), 
-and the second line is a subheader that indicated to which class year it is offered (ex. sophomore), 
-if it's a term course (for those not marked with 'term course' means it's year round'), and which term it is offered (if which term is not mentioned, 
-that means it's offered year-round and we don't have to mark this in the markdown file; only mark for those ocurses that are explicitly labelled
-as offered in which term). So the sub-header under the title of the course will contain a different combination of the following categories: 
-term course, to which class year the course is offered, which term it is offered.
+from this document than PDF. What's very annoying about this PDF is that it's not written and organized in a typical PDF. 
 
 
-The page, as you can see, has 3 vertical columns, and so the courses are within each of the column. Also, sometimes, there will be a bigger header, 
-such as "CL Senior Writing Seminars", under which there's a paragraph of text description of what they are, which are NOT the actual information 
-that I will need. For other headers that appears not within the courses' descriptions but somewhere in the middle, 
-that are clearly indicating the start of a new cateogry or section of courses, be sure to clearly mark that in the markdown file in an obvious syntax.
+As you can see in the PDF, it is composed of rectangular sections or blocks of courses; each little section is its own course, 
+with the course title as the first line (may contain the phrase "GESC" or "PPR" or not), 
+and the second line is a subheader that indicates: to which class year it is offered (ex. sophomore), 
+if it's a term course/half course (if not mentioned that means year course as default), and which term it is offered (if not mentioned, 
+that means it's offered year-round). And then lastly is the course description, with prerequisites at the end of it if mentioned. 
+
+
+For the header that contains the course title, adopt this format for consistency:
+start the line with "###", capitalize all letters; append "(GESC)" and/or "(PPR)" in parenthesis if specified.
+
+
+For the subheader, adopt this format of syntax for consistency: start the line with "####" and wrap the subheader with "_" at the start and end.
+Sample format is this: 
+"#### _[course duration (term, half, or year)]; [which term (fall, winter, spring, or combination of terms)]; [to which class it is offered (freshman, sophomore, junior, senior, or any combination of them)]; [whether offered in 2025-26 or not]_"
+Seperate fields with semicolons. For fields in the above example format that are not mentioned in the original PDF, leave it blank. 
+Keep the exact information as written on the PDF. 
+The above example format is a comprehenisve one that covers all possible fields; any subheader could have any combination of the different fields, so
+that's why for simplicity and best practice you should record exactly what's written on the PDF. 
 
 
 
-This is what I need you to help me for: you have to have a solid understanding of the format of the organization of the PDF is and then help me 
-revise the content of my markdown file so that it ONLY contains information about the courses only – the title of the courses, which category 
-the courses belong, and the other sections of information that need to be retained and converted accurately. Things like the text line at the 
-upper right corner of the first page 'Term Courses for Seniors' should also be retained, and should be placed, for this instance, after the previous 
-coure "CL English III Seminar" and before "English IV: banned books", clearly labelled to indicate that the courses that come after this line are 
-term courses for seniors. Be mindful of things like this as we go on, even though in this PDF attached this might be the only instance like this. 
-Help me revise the content of the markdown file.
+Sometimes there are courses that are listed under a red text, saying "Elective Term Course" or something to that effect. For the courses that appear
+under this header, adopt this example format:
+
+**Below are Elective Term Courses**
+<!-- electives:start -->
+
+### ASTRONOMY I: INTRODUCTION TO ASTRONOMY AND THE SOLAR SYSTEM
+#### _fall term · juniors and seniors_
+…description…
+**Prerequisite:** Chemistry or Physics
+
+### ASTRONOMY II: OBSERVING THE UNIVERSE
+#### _two-term · winter and spring · juniors and seniors_
+…description…
+**Prerequisite:** Chemistry or Physics
+
+...
+<!-- electives:end -->
 
 
-Below is the content of the markdown file. While you do the conversion, make sure you pay attention to any typos or any other error 
+
+The page, as you can see, has 3 vertical columns, and so the courses are within each of the column. Also, sometimes, there will be a bigger header
+that specifies the start of a new category of courses, 
+under which there's a paragraph of text description of the category itself which are NOT the actual information that I will need. From now on for other 
+documents that I will attach later, what you need to do is to keep the big headers and delete this paragraph of bolded (bigger) texts that are clearly not information 
+about the courses themselves, which are explanations of what these electives/categories are, that are not needed for my markdown file. 
+Be sure to clearly identify the exact texts before deleting to confirm the precision of your deletion. 
+
+The document (images) might also sometimes contain other "non-course" blocks that have the same format with the real courses. One exampel is
+the study (school year) abroad programs. I don't need these programs (study abroad programs might be the only one in this category; correct me if I'm wrong).
+However, for all 'Indepedent Studies" or something of that sort where it is
+still mentioned as a 'course' that student can take (most often as term courses), still keep those.
+
+
+Here is what I need you to help me for: you have to have a solid understanding of the format of the organization of the PDF from the attached 
+images and then help me 
+check the content of my markdown file so that it accurately ONLY contains information about the courses only. Follow the format as instructed above.
+
+
+I have attached the first few images. Only work for the courses covered in the image. I will provide you with new images once you finish.
+Below is the content of the markdown file. Check and then rewrite. Provide me with the complete, consolidated raw code.
+While you do the conversion, make sure you pay attention to any typos or any other error 
 sections/sentences that clearly has a misinformation during previous conversion:

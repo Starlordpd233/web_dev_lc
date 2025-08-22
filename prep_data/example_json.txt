@@ -13,6 +13,11 @@ Notes:
 
 – For "STATISTICS I (GESC) winter" and "STATISTICS II (GESC) spring", ignore for now about this course, since information very unclear. 
 
+– for "UPPER-LEVEL LATIN", ignore for now since it's unclear how the course registration works exactly.
+
 - For CL TOPICS IN COMPUTER SCIENCE A and CL TOPICS IN COMPUTER SCIENCE B, it should be two different,
 separate json fields, each json having the same information except the true and false for the state of
 being offered or not in 2025-26. 
+
+– Clearly examine the subheaders for the arts classes. For example, in the class "ART OF DANCE", delete the 'daytime' description from subheader.
+– delete those classes that are offered as "after-school tem" or "physical exertion activity", that are not real classes. 

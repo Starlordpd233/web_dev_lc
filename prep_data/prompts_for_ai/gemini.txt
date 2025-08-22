@@ -25,6 +25,7 @@ The above example format is a comprehenisve one that covers all possible fields;
 that's why for simplicity and best practice you should record exactly what's written on the PDF. 
 
 
+
 Sometimes there are courses that are listed under a red text, saying "Elective Term Course" or something to that effect. For the courses that appear
 under this header, adopt this example format:
 
@@ -64,7 +65,6 @@ images and then help me
 check the content of my markdown file so that it accurately ONLY contains information about the courses only. Follow the format as instructed above.
 
 
-I have attached the markdown file. While you do the conversion, make sure you also pay attention to any typos or any other error 
-sections/sentences that clearly has a misinformation during previous conversion. You do not need to provide the updated complete code. 
-Just identify clearly, if there is any, of places that are incorrect. Then, for those places that need to be updated/replaced because of errors,
-be sure to provide me with the complete, raw code replacement in your code editor of the ENTIRE section about the course.
+I have attached the images and the markdown file. Check and then rewrite. Provide me with the complete, consolidated raw code.
+While you do the conversion, make sure you pay attention to any typos or any other error 
+sections/sentences that clearly has a misinformation during previous conversion:
