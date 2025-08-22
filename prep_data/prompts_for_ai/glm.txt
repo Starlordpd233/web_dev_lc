@@ -2,12 +2,12 @@ The attached PDF is a document containing the information on course offerings an
 I need to transform this PDF into accurate conversion into markdown file that I will later use, which is a better format for data collection 
 of this document than PDF. What's very annoying about this PDF is that it's not written and organized in a typical PDF. As you can see in the PDF, 
 it is composed of little rectangular sections of courses; each little section is an own course, with the course title as the first line 
-(may contain the phrase "GESC" or not; wrap it in a patenthesis in the markdown file if it appears after the title of the course), 
+(may contain the phrase "GESC" or not; wrap it in a parenthesis in the markdown file if it appears after the title of the course), 
 and the second line is a subheader that indicated to which class year it is offered (ex. sophomore), 
 if it's a term course (for those not marked with 'term course' means it's year round'), and which term it is offered (if which term is not mentioned, 
 that means it's offered year-round and we don't have to mark this in the markdown file; only mark for those ocurses that are explicitly labelled
 as offered in which term). So the sub-header under the title of the course will contain a different combination of the following categories: 
-term course, to which class year the course is offered, which term it is offered (this last category only appears in the 'writing workshop' I believe).
+term course, to which class year the course is offered, which term it is offered.
 
 
 The page, as you can see, has 3 vertical columns, and so the courses are within each of the column. Also, sometimes, there will be a bigger header, 
@@ -26,5 +26,5 @@ term courses for seniors. Be mindful of things like this as we go on, even thoug
 Help me revise the content of the markdown file.
 
 
-Below is the content of the markdown file. While you do the ocnversion, make sure you pay attention to any typos or any other error 
+Below is the content of the markdown file. While you do the conversion, make sure you pay attention to any typos or any other error 
 sections/sentences that clearly has a misinformation during previous conversion:

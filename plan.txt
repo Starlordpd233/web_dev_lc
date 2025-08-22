@@ -4,6 +4,9 @@ Plans for web features:
 count the number of courses/etc.
 – our goal is to make an interface where they can easily and conveniently choose the courses that they want, put it down, and then verify
 if they are good for the graduation requirements or maximum courses allowed, number of credts offered, etc. 
+– for prerequisite mentioned in the course description, we can add the feature that, based on the user's input about the courses that've already taken
+so far, that automatically tells me whether they're missing a prerequisite, when they select this course. Add this feature later once core features are
+done. 
 
 2. study resources hub: 
 – holds various resources for various classes, especially math and sciences 
