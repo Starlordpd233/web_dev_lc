@@ -1,0 +1,30 @@
+The attached PDF is a document containing the information on course offerings and their descriptions. 
+I need to transform this PDF into accurate conversion into markdown file that I will later use, which is a better format for data collection 
+of this document than PDF. What's very annoying about this PDF is that it's not written and organized in a typical PDF. As you can see in the PDF, 
+it is composed of little rectangular sections of courses; each little section is an own course, with the course title as the first line 
+(may contain the phrase "GESC" or not; wrap it in a patenthesis in the markdown file if it appears after the title of the course), 
+and the second line is a subheader that indicated to which class year it is offered (ex. sophomore), 
+if it's a term course (for those not marked with 'term course' means it's year round'), and which term it is offered (if which term is not mentioned, 
+that means it's offered year-round and we don't have to mark this in the markdown file; only mark for those ocurses that are explicitly labelled
+as offered in which term). So the sub-header under the title of the course will contain a different combination of the following categories: 
+term course, to which class year the course is offered, which term it is offered (this last category only appears in the 'writing workshop' I believe).
+
+
+The page, as you can see, has 3 vertical columns, and so the courses are within each of the column. Also, sometimes, there will be a bigger header, 
+such as "CL Senior Writing Seminars", under which there's a paragraph of text description of what they are, which are NOT the actual information 
+that I will need. For other headers that appears not within the courses' descriptions but somewhere in the middle, 
+that are clearly indicating the start of a new cateogry or section of courses, be sure to clearly mark that in the markdown file in an obvious syntax.
+
+
+
+This is what I need you to help me for: you have to have a solid understanding of the format of the organization of the PDF is and then help me 
+revise the content of my markdown file so that it ONLY contains information about the courses only – the title of the courses, which category 
+the courses belong, and the other sections of information that need to be retained and converted accurately. Things like the text line at the 
+upper right corner of the first page 'Term Courses for Seniors' should also be retained, and should be placed, for this instance, after the previous 
+coure "CL English III Seminar" and before "English IV: banned books", clearly labelled to indicate that the courses that come after this line are 
+term courses for seniors. Be mindful of things like this as we go on, even though in this PDF attached this might be the only instance like this. 
+Help me revise the content of the markdown file.
+
+
+Below is the content of the markdown file. While you do the ocnversion, make sure you pay attention to any typos or any other error 
+sections/sentences that clearly has a misinformation during previous conversion:
