@@ -6,4 +6,5 @@ count the number of courses/etc.
 if they are good for the graduation requirements or maximum courses allowed, number of credts offered, etc. 
 
 2. study resources hub: 
-– holds various resources for various classes, especially math and sciences
+– holds various resources for various classes, especially math and sciences 
+– For certain classes that we have enough information, we can ask teachers for course syllabus
