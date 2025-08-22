@@ -1,3 +1,15 @@
+
+
+I have attached the markdown file that contains the course information and offerings. 
+What you need to do is to collect the information accurately from the mardown file and create a json file that stores all the 
+relevant data about the course in the designated format as below. When there's a bigger header/category, such as in this case, 
+the header "CL Senior Writing Seminars", be sure to wrap all the courses that appear below that header within a new {} environment 
+(you know what I'm talking about) so that we know clearly those are writing seminars. In general, organize the data in a very clear, 
+unambiguous, and concise way. I will later use this json file to create a website that holds various information about the courses, 
+and so each field of information about the course matters. 
+
+Below is a sample field for one course:
+
 {
   "Arabic": {
     "course_title": "Arabic I", // append '(GESC)' and/or '(PPR)' for those that are specified
@@ -5,9 +17,14 @@
     "Course_Duration": "year-course", // default year-course, unless "term-course" or "half-course" for those that are specified, or "offered as a term course and half course" for some courses; keep it exactly as written, just make sure to use consistent category description
     "offered_in_2025-26": true, //default true, or false if specified
     "Course_Description": "This yearlong course introduces the basics of Modern Standard Arabic (MSA), with an introduction to Levantine Colloquial Arabic (from the region including Lebanon, Syria, Jordan, and the Palestinian Territories).\n\nEmphasis during the first term will be on mastering the 28-letter alphabet of the Arabic script and pronouncing its sounds, with introductory vocabulary and cultural expressions.\n\nThe second and third terms will begin to build vocabulary in Levantine and MSA and teach introductory grammar.\n\nThis course is taught using the Alif Baa and Arabiyyat Al-Naas with accompanying DVDs.\n\nStudents practice their writing, reading, listening, and speaking skills in both the classroom and independently.\n\nThis course is not open to native speakers of Arabic."
+    "Prerequisites": "[description]" // "N/A" if not mentioned
   }
 }
 
+Be sure to use the EXACT names for the course category and titles, as written in the markdown file. Be consistent in the names and values for the
+fields in the json structure.
+For the comments above, take them into consideration as you scan through each course in the markdown file. 
+If I missed something or some important fields, be sure to remind me.
 
 Notes:
 
