@@ -2,11 +2,14 @@
 
 I have attached the markdown file that contains the course information and offerings. 
 What you need to do is to collect the information accurately from the mardown file and create a json file that stores all the 
-relevant data about the course in the designated format as below. When there's a bigger header/category, such as in this case, 
+relevant data about the course in the designated format as below. When there's a bigger header/category as written in the markdown file, 
+such as in this case, 
 the header "CL Senior Writing Seminars", be sure to wrap all the courses that appear below that header within a new {} environment 
 (you know what I'm talking about) so that we know clearly those are writing seminars. In general, organize the data in a very clear, 
 unambiguous, and concise way. I will later use this json file to create a website that holds various information about the courses, 
-and so each field of information about the course matters. 
+and so each field of information about the course matters. If you can identify the patterns in the name of the courses, such as grouping them
+based on some bigger categories (i.e. shared 'title'), say all English IV courses, all CL English IV courses, or all Latin IV/V courses, etc., you can
+wrap those courses around in a bigger parent object that uses that shared trait as the key.
 
 Below is a sample field for one course:
 
