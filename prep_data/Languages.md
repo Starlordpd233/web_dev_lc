@@ -1,4 +1,3 @@
-# Term Courses for Seniors
 
 # Arabic
 # ARABIC I
@@ -48,7 +47,7 @@ This course allows students to extend their mastery of the Chinese language. The
 
 # ADVANCED CHINESE IV
 *year course*
-This advanced course emphasizes composition and discussion in Chinese. The textbook provides the structure and framework for students to understand further the idiosyncrasies and details of Chinese language and culture. Additionally, the course covers a rich variety of topics, including Chinese customs, social phenomena, Chinese proverbs, the role of women, and human rights issues. The study of China’s history as well as contemporary China in the larger global context will play a critical role. Class is conducted exclusivelyin Chinese. Prerequisite: permission of the department.
+This advanced course emphasizes composition and discussion in Chinese. The textbook provides the structure and framework for students to understand further the idiosyncrasies and details of Chinese language and culture. Additionally, the course covers a rich variety of topics, including Chinese customs, social phenomena, Chinese proverbs, the role of women, and human rights issues. The study of China’s history as well as contemporary China in the larger global context will play a critical role. Class is conducted exclusively in Chinese. Prerequisite: permission of the department.
 
 # CHINESE V (GESC)
 *year course*
@@ -64,7 +63,7 @@ This course explores the work of a few well-known Chinese authors after the Mao 
 
 # CL CHINESE VI: CONTEMPORARY ISSUES IN CHINA (GESC)
 *half course/not offered in 2025-26*
-Through selected newspaper articles and essays, this course explores the evolution of Chinese society over the past several decades—a period of time during which we have witnessed a departure from many traditional Chinese ideals. From the astronomical prices of housing and university studies to the “one child” policy, students will tackle difficult topics and gain a better understanding of contemporary issues in the “New China.” Pre-requisite: permission of the department.
+Through selected newspaper articles and essays, this course explores the evolution of Chinese society over the past several decades—a period of time during which we have witnessed a departure from many traditional Chinese ideals. From the astronomical prices of housing and university studies to the “one child” policy, students will tackle difficult topics and gain a better understanding of contemporary issues in the “New China.” Prerequisite: permission of the department.
 
 # INDEPENDENT STUDIES IN CHINESE
 *term course*
@@ -186,8 +185,6 @@ The objective of this course is to hone skills in reading, translating, understa
 *term course*
 A student who is highly proficient in a foreign language may propose an Independent Study Project (ISP). The student has to have exhausted all curricular offerings to be considered for an ISP. The student must arrange for a project advisor from within the department, submit a written proposal, and obtain approval from the academic advisor, project advisor, department head, and dean of faculty for any ISP.
 
-# School Year Abroad in Spain
-Please see Alternate Study beginning on page 58.
 
 # Spanish
 # SPANISH I
@@ -219,7 +216,7 @@ This course is designed for students in their fourth year of study, focusing on 
 This comprehensive course stresses oral and written communication skills. Throughout the year, students explore the culture of the Spanish-speaking world in both contemporary and historical contexts, making connections between the happenings in the United States and those around the world. As a discussion-based course, students’ participation is paramount. The curriculum covered by CL Spanish IV utilizes the six global themes designated by the College Board for the Advanced Placement Spanish Language and Culture course, but students sitting for the corresponding examination may want to have additional practice with that type of exercises outside of class. Prerequisite: permission of the department.
 
 # SPANISH V
-**year course**
+*year course*
 At the fifth level of language study, students may elect term courses, taken either separately or as a three-term sequence. Prerequisite: Spanish IV or permission of the department.
 
 # SPANISH V: LATIN AMERICAN CIVILIZATION (GESC)
@@ -245,6 +242,9 @@ This course is offered to students who have successfully completed the CL Spanis
 # INDEPENDENT STUDIES IN SPANISH
 *term course*
 A student who is highly proficient in a foreign language may propose an Independent Study Project (ISP). The student has to have exhausted all curricular offerings to be considered for an ISP. The student must arrange for a project advisor from within the department, submit a written proposal, and obtain approval from the academic advisor, project advisor, department head, and dean of faculty for any ISP. All discussion and all writing submitted must be in Spanish.
+
+# School Year Abroad in Spain
+Please see Alternate Study beginning on page 58.
 
 # Global, Digital Cultures (GESC)
 *term course*

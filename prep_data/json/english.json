@@ -1,206 +1,330 @@
 {
-  "English": {
-    "English_I": {
-      "course_title": "English I",
-      "target_class_year": "freshmen",
-      "course_duration": "year course",
-      "offered_in_2025-26": true,
-      "course_description": "English I develops a student's ability to read perceptively and to write accurately and effectively. Organized around the study of global literature, this course allows students to study short stories, memoirs, novels, dramas, and poetry. Writing progresses from the construction of single paragraphs to multi-paragraph compositions, developing students' skills in crafting both interpretive essays and personal narratives and leading to their final writing project, which develops and combines both styles of writing into a single, coherent essay. Throughout the year, the course emphasizes vocabulary, grammar, and punctuation. Representative readings include Sophocles' Antigone, Marjane Satrapi's Persepolis, poetry, short stories, and classic and contemporary fiction.",
-      "prerequisites": "N/A"
+  "department": "English",
+  "courses": [
+    {
+      "title": "English I",
+      "description": "English I develops a student's ability to read perceptively and to write accurately and effectively. Organized around the study of global literature, this course allows students to study short stories, memoirs, novels, dramas, and poetry. Writing progresses from the construction of single paragraphs to multi-paragraph compositions, developing students' skills in crafting both interpretive essays and personal narratives and leading to their final writing project, which develops and combines both styles of writing into a single, coherent essay. Throughout the year, the course emphasizes vocabulary, grammar, and punctuation. Representative readings include Sophocles' Antigone, Marjane Satrapi's Persepolis, poetry, short stories, and classic and contemporary fiction.",
+      "department": "English",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": false,
+      "term": "year course",
+      "offered_in_25-26": true,
+      "required": true,
+      "grades": [9],
+      "prerequisite": [null, false]
     },
-    "English_II": {
-      "course_title": "English II",
-      "target_class_year": "sophomores",
-      "course_duration": "year course",
-      "offered_in_2025-26": true,
-      "course_description": "The literature studied in this course covers a wide range while focusing on a core of British literature and colonial and post-colonial works. The writing instruction emphasizes close reading, encouraging students to work toward establishing and developing a clear, carefully focused thesis and toward achieving greater maturity in style. This course reviews the skills taught in English I and continues the emphasis on vocabulary, grammar, and punctuation. With a focus on analytical writing, students begin the year working on single-paragraph structures building to a major five-paragraph analytical essay written in the spring term. Representative readings include Shakespeare's Othello, Chinua Achebe's Things Fall Apart, poetry, and short stories.",
-      "prerequisites": "N/A"
+    {
+      "title": "English II",
+      "description": "The literature studied in this course covers a wide range while focusing on a core of British literature and colonial and post-colonial works. The writing instruction emphasizes close reading, encouraging students to work toward establishing and developing a clear, carefully focused thesis and toward achieving greater maturity in style. This course reviews the skills taught in English I and continues the emphasis on vocabulary, grammar, and punctuation. With a focus on analytical writing, students begin the year working on single-paragraph structures building to a major five-paragraph analytical essay written in the spring term. Representative readings include Shakespeare's Othello, Chinua Achebe's Things Fall Apart, poetry, and short stories.",
+      "department": "English",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": false,
+      "term": "year course",
+      "offered_in_25-26": true,
+      "required": true,
+      "grades": [10],
+      "prerequisite": [null, false]
     },
-    "Writing_Workshop": {
-      "course_title": "Writing Workshop",
-      "target_class_year": "sophomores",
-      "course_duration": "year course",
-      "offered_in_2025-26": true,
-      "course_description": "As part of their work in English, sophomores take Writing Workshop, which meets once a cycle through the year. The workshop program includes targeted and focused instruction on the writing process and a systematic review of formal structures of language.",
-      "prerequisites": "N/A"
+    {
+      "title": "Writing Workshop",
+      "description": "As part of their work in English, sophomores take Writing Workshop, which meets once a cycle through the year. The workshop program includes targeted and focused instruction on the writing process and a systematic review of formal structures of language.",
+      "department": "English",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": false,
+      "term": "year course",
+      "offered_in_25-26": true,
+      "required": true,
+      "grades": [10],
+      "prerequisite": [null, false]
     },
-    "English_III": {
-      "course_title": "English III",
-      "target_class_year": "juniors",
-      "course_duration": "year course",
-      "offered_in_2025-26": true,
-      "course_description": "As they read more complex texts, juniors review, develop, and extend the skills taught in the first two years. The fall term begins with a focus on rhetoric and argumentation, and the winter and spring terms lead to more advanced literary analysis. Students work on close reading and sustained analysis, considering a variety of literary techniques and themes. Writing assignments include both literary analysis and personal essays. This class centers on American literature. Representative readings include Fitzgerald's The Great Gatsby, Baldwin's Giovanni's Room, poetry, short stories, and essays.",
-      "prerequisites": "N/A"
+    {
+      "title": "English III",
+      "description": "As they read more complex texts, juniors review, develop, and extend the skills taught in the first two years. The fall term begins with a focus on rhetoric and argumentation, and the winter and spring terms lead to more advanced literary analysis. Students work on close reading and sustained analysis, considering a variety of literary techniques and themes. Writing assignments include both literary analysis and personal essays. This class centers on American literature. Representative readings include Fitzgerald's The Great Gatsby, Baldwin's Giovanni's Room, poetry, short stories, and essays.",
+      "department": "English",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": false,
+      "term": "year course",
+      "offered_in_25-26": true,
+      "required": true,
+      "grades": [11],
+      "prerequisite": [null, false]
     },
-    "CL_English_III_Seminar": {
-      "course_title": "CL English III Seminar",
-      "target_class_year": "juniors",
-      "course_duration": "year course",
-      "offered_in_2025-26": true,
-      "course_description": "This course requires students to read major works of literature and to develop their skills for writing both analytical and personal essays. Benefiting students whose greater experience with language and literature allows them to succeed with more challenging reading and writing assignments, this course assumes significant student participation in class discussion. Like English III, this course centers on American literature. Readings could include those listed for English III and additional works selected by the instructors.",
-      "prerequisites": "permission of the department"
+    {
+      "title": "CL English III Seminar",
+      "description": "This course requires students to read major works of literature and to develop their skills for writing both analytical and personal essays. Benefiting students whose greater experience with language and literature allows them to succeed with more challenging reading and writing assignments, this course assumes significant student participation in class discussion. Like English III, this course centers on American literature. Readings could include those listed for English III and additional works selected by the instructors.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "term": "year course",
+      "offered_in_25-26": true,
+      "required": true,
+      "grades": [11],
+      "prerequisite": [null, true]
     },
-      "English_IV_Term_Courses": {
-      "Banned_Books": {
-          "course_title": "English IV: Banned Books",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "Books have been banned, burned, seized, and sanitized throughout history. Even today, school administrators, religious leaders, authoritarian regimes, and democracies continue to censor texts that pose a threat to their values. With societies around the world opening new conversations on free speech and political correctness, this course aims to consider when, if ever, censorship is justified. In doing so, we will discuss how banned books reflect the cultures in which they are written. Readings will include texts banned on political grounds (e.g., Fahrenheit 451, Wild Swans), on religious grounds (e.g., Slaughterhouse-Five, The Satanic Verses), on moral grounds (e.g., \"The Wife of Bath's Tale,\" The Handmaid's Tale, The Bluest Eye), and for other controversial content (e.g., The Adventures of Huckleberry Finn, Drown).",
-          "prerequisites": "N/A"
-      },
-      "Ghosts_and_Monsters": {
-          "course_title": "English IV: Ghosts and Monsters",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "Parul Sehgal characterizes ghost stories as \"social critiques camouflaged with cobwebs\" and \"vessel[s] for collective terror and guilt, for the unspeakable\" in his 2018 New York Times article, \"The Ghost Story Persists in American Literature. Why?\" Ghost stories have been around for as long as people have been; they have long served as the vehicles through which societies and individuals express their fears, traumas, and things best swept under the rug. If history is written by winners, then ghost stories are written by losers — or, those disenfranchised seeking to reclaim their voice. Spanning all forms and all cultures, the ghost story is a universally employed medium to commune with things that most would prefer stay under the bed. In this course, students will learn not only about the many ghosts of our society and how they take form, but also of art as a form of activism and a memorial of past injustices. The course will emphasize ideas of the importance of truth-telling and the power of old wives' tales, fairy tales, or the stories told by those we all too often dismiss as crazy. Representative texts might include Ahmed Saadawi's Frankenstein in Baghdad, Carmen Maria Machado's Her Body and Other Parties, Charlotte Brontë's Jane Eyre, and others.",
-          "prerequisites": "N/A"
-      },
-      "Graphic_Novel": {
-          "course_title": "English IV: Graphic Novel (GESC)",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "Since the ground-breaking publication of Art Spiegelman's Maus in 1993, graphic novels have entered the global cultural and academic mainstream, inspiring complex interdisciplinary and multicultural analyses. In this course students will survey the current field and read works of fiction (Watchmen, Asterios Polyp, The Arrival), autobiography (Maus, Persepolis, Fun Home), and journalism (Safe Area Gorazade). In order to understand these works and the cultures that produced them, students will write essays using interpretive lenses focusing on history, gender, psychology, and class. Students will also explore the relationship between text and image in analyses as well as develop short sequential art sequences of their own.",
-          "prerequisites": "N/A"
-      },
-      "Migrant_Stories": {
-          "course_title": "English IV: Migrant Stories (GESC)",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "Humans migrating to new places, new countries, and new continents is a story as old as time—not just something for the current news cycle. In this course, we will read the stories of individuals and groups who have journeyed to new places—often out of a desire for a better life but just as often because of involuntary displacement or the need to escape horrific circumstances. Of course, with this change of region, country, or continent comes not only some form of severance from the old place and the old culture but the need to cope with the strangeness of a new country and culture. Consequently, many of the questions we will ask of these texts will concern personal identity—how much is it tied to place? Does a new country or place mean a new identity? What does it mean to reconstruct one's life in a new place? Migration is not a narrow or isolated experience—there's a broad range of groups who have experienced and written about this experience—from Irish immigrants fleeing the 1840s Irish famine to the Great Migration in the early-to-mid-20th century to modern migrants fleeing poverty and political strife in Central and South America, Africa, Asia, and Europe. Potential texts might include Wilson's Joe Turner's Come and Gone, Adichie's Americanah, Cisneros' House on Mango Street, Nayeri's The Ungrateful Refugee: What Immigrants Never Tell You or The Penguin Book of Migration Literature.",
-          "prerequisites": "N/A"
-      },
-      "Race_Roles_Religion": {
-          "course_title": "English IV: Race, Roles, and Religion (GESC)",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "In our increasingly interconnected world, literature can provide insight into the broadest palate of human experiences. Exploring the fiction, poetry, essays, and drama of writers beyond the traditional Western canon, this senior elective will examine boundaries: race, age, ethnicity, gender, nation, physical ability, sexuality, religion. Topics will focus on questions of culture and identity from global and literary perspectives. Students will read and respond to a rich diversity in experience and traditions. Authors will vary according to the term and may include the works of Chinua Achebe, Aravind Adiga, Sherman Alexie, James Baldwin, Kate Chopin, Countee Cullen, Edwidge Danticat, Jonathan Safran Foer, Rebecca Gilman, Langston Hughes, Jhumpa Lahiri, Nella Larsen, Jonathan Lethem, Toni Morrison, Alice Munro, Téa Obreht, Maggie O'Farrell, Grace Paley, Ann Patchett, Amy Tan, Gene Toomer, Alice Walker, Wendy Wasserstein, Virginia Woolf, and Richard Wright.",
-          "prerequisites": "N/A"
-      },
-      "Satire": {
-          "course_title": "English IV: Satire",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "As a literary genre, satire has been around as long as writers have had the audacity to address the foibles of humanity. Juvenal, the Roman satirist, once said, \"It's hard not to write satire,\" suggesting that targets abound for those willing to poke fun at their fellow human beings and their many institutions. Through exploration of satirical novels and pop culture publications alike, this course explores how writers use wit and irony to challenge norms, expose hypocrisy, and spark conversation. Along the way, students examine both how and why satire works, considering in the process the role of humor, hyperbole, mockery, understatement, and other tools of the trade. Representative texts may include the works of authors such as Jonathan Swift, Kurt Vonnegut, Jane Austen, Paul Beatty, and Nana Kwame Adjei-Brenyah.",
-          "prerequisites": "N/A"
-      },
-      "Stories_of_War": {
-          "course_title": "English IV: Stories of War",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "One of the unfortunate realities of human history is our species' tendency toward conflict. This course will eschew the historical and political causes of war in an attempt to understand the mythological, symbolic, literary, and psychological perspectives of the individual soldier. Sub-themes might include the transformative power of combat and violence, the brotherhood forged between fellow soldiers, the social ramifications on the homefront, or the cultural shifts in societies embroiled in war. Readings will focus on fictionalized accounts of wartime experience in combination with literary non-fiction produced by combat veterans and journalists. Students will be expected to grapple with the conflicting ideals of duty, honor, patriotism, exhilaration, fear, shame, regret, confusion, and betrayal. Potential texts include works by Ernest Hemingway, Sebastian Junger, Kristen Hannah, Uzodinma Iweala, and others.",
-          "prerequisites": "N/A"
-      },
-      "Contemporary_Literature": {
-          "course_title": "CL English IV: Contemporary Literature",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "This course offers a study of a variety of contemporary novels, short stories, plays, poems, essays, and articles. The course focuses on understanding the values and attitudes expressed by contemporary writers, including those who write about social issues and cultural development. In recent sections of the course, students have explored works by writers including Ocean Vuong, Jesmyn Ward, Colson Whitehead, Rebecca Makkai, as well as a range of other contemporary poets, fiction writers, and essayists.",
-          "prerequisites": "permission of the department"
-      },
-      "Creative_Writing": {
-          "course_title": "CL English IV: Creative Writing",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "This course gives students the opportunity to study the techniques and styles of professional writers; to study the work of other students; and to practice writing in a variety of styles and genres. Throughout the term, students will examine the work of master storytellers to glean the secrets of the trade and gain a better understanding of the elements of the craft, including characterization, diction, plot structure, dialogue, point of view, and voice.",
-          "prerequisites": "permission of the department"
-      },
-      "Literary_Adaptation": {
-          "course_title": "CL English IV: Literary Adaptation and Reinvention (GESC)",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "Great stories are rarely told just once—they're retold, reimagined, and transformed across different cultures, times, and mediums. This course explores the art of literary adaptation, examining how stories are transformed across a range of forms, from novels, short stories, poems, and plays to their retellings in other literary genres, performance arts, film, or other visual arts. Through comparative study, we'll ask critical questions such as: What changes when a story transitions between different forms, and what does that reveal about the storytelling tools of those different creative forms? How do creators—be they writers, directors, or other artists—reinterpret texts for new audiences? What roles do historical, cultural, and artistic contexts play in shaping these adaptations? With a focus on analyzing both original texts and their diverse adaptations, students will consider not only how meaning is constructed differently across mediums but also how adaptations can illuminate or obscure aspects of race, gender, class, and culture.",
-          "prerequisites": "permission of the department"
-      },
-      "Literature_Environment": {
-          "course_title": "CL English IV: Literature and the Environment (GESC)",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "How does place shape identity? Is the natural world a physical resource to be exploited or conserved, a challenge to be conquered, or a sacred space to be preserved and revered? Exploring the connections between literary texts and the history of environmental thought, this course will focus on the cultural, metaphorical, and symbolic values of the non-human world, while also investigating its ecological significance. From wilderness to the worked landscape, from suburban to urban environments, students will examine the ways that the language of literature, film, and popular media construct our awareness and appreciation of the non-human world. Potential texts include works by Henry David Thoreau, Leslie Marmon Silko, Wendell Berry, Octavia Butler, and others. In addition to analytical writing, students will write creatively about their own experiences in and with the natural world.",
-          "prerequisites": "permission of the department"
-      },
-      "Magical_Realism": {
-          "course_title": "CL English IV: Magical Realism (GESC)",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "Magical realism is a form of literature that collapses the boundary between the fantastical and the ordinary, forcing the reader to see \"reality\" through new eyes. Closely associated with 20th-century Latin American authors such as Gabriel García Márquez and Jorge Luis Borges, magical realism has attained a truly global reach, as writers and artists from around the world have employed it to reflect and refract deeper understandings of society. This course will explore magical realism in its Latin American context and across cultures, in prose, poetry, and film. Beginning with the works of Márquez and Borges, the course will attempt to isolate a set of characteristics that define magical realism. From there, students will explore how other authors have experimented with magical realism around the world and compare how those artists have utilized magical realism in their own ways. From the works of Lin Manuel Miranda to Kazuo Ishiguro and Jesmyn Ward, the class will see how the threads of magical realism can connect Latin America and the wider world and how place and genre can open a broader understanding of the ways artists manipulate reality to develop meaning.",
-          "prerequisites": "permission of the department"
-      },
-      "Harlem_Renaissance": {
-          "course_title": "CL English IV: The Harlem Renaissance",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "This CL senior elective is designed to give students their first entry into a focused study of one of the most important periods of American literature, art, and culture. Spanning a period from roughly the mid-1910s through the mid-1930s, the Harlem Renaissance was a time when mass migration to Northern cities brought together numerous African-American writers, artists, scholars, and musicians in the Harlem neighborhood of New York City. This course will focus on some of the prominent writers of the movement in an attempt to uncover the stylistic tendencies of their work and the impact those writings had, both on other writers of the period and on the larger culture as a whole. Students will also experience a selection of art, music, and essay as they develop strategies for understanding what bound these artists together into a generally accepted \"movement\" and for determining how their work still influences writers today. Students will be expected to connect their close reading of individual texts to broader literary and social context. Readings might include texts such as Harlem Shadows, When Washington Was in Vogue, Quicksand, and The Blacker the Berry, and the course will also examine music, poetry, art, and essay from the period.",
-          "prerequisites": "permission of the department"
-      },
-      "Shakespeare": {
-          "course_title": "CL English IV: Shakespeare",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "Shakespeare is widely recognized as among the greatest—and certainly most influential—writers in the history of the English language. What makes his works endure? This course gives students the opportunity to explore this question for themselves, offering a deep dive into selected plays and sonnets. Students will consider how these texts were staged and received in their original Elizabethan and Jacobean contexts as well how they continue to be reinterpreted for modern audiences. Through close textual analysis and discussion of theatrical conventions across centuries, students will uncover the richness of Shakespeare's language and probe its dramatic potential. Selected texts will reflect a range of genres, and may include plays such as Henry IV, Henry V, Much Ado About Nothing, King Lear, The Tempest, and The Merchant of Venice.",
-          "prerequisites": "permission of the department"
-      },
-      "Writing_Arab_World": {
-          "course_title": "CL English IV: Writing from the Arab World (GESC)",
-          "target_class_year": "seniors",
-          "course_duration": "term course",
-          "offered_in_2025-26": true,
-          "course_description": "The Arab world has a rich literary tradition that pre-dates Islam, and today, Arab writers continue to generate and maintain an equally rich intellectual culture. This course will explore different contemporary authors and different genres that depict a variety of characters, circumstances, and themes, the goal of which is to help broaden our understanding of a culture both modern, shaped by a complex history, and steeped in rich tradition. This cross section of literature in translation takes us beyond both stereotype and misinformation, and beyond our understanding of the Middle East as only a region of chaos, refugees, and terrorism. Possible texts include: Fadia Faqir, Pillars of Salt; Abd al-Rahman Munif, Endings; Mahmoud Darwish, Memory of Forgetfulness; and a compilation of poetry and short stories by Naguib Mahfouz, Yusef Idris, Salwa Bakr, Adunis, and Nizar Qabbani.",
-          "prerequisites": "permission of the department"
-      },
-      "Guided_Humanities_Research": {
-        "course_title": "CL Senior Writing Seminar: Guided Humanities Research (History, Philosophy & Religious Studies)",
-        "target_class_year": "seniors",
-        "course_duration": "term course",
-        "offered_in_2025-26": true,
-        "course_description": "This course provides students with opportunities to develop and refine college-level skills for inquiry, research, analytical thinking, and writing as they complete a research project in the humanities. Students will engage in sustained, significant, mentored research that draws on previous academic courses, such as United States History, experiences gained from work in their communities, or through the Norton Family Center for the Common Good and the Alvord Center for Global & Environmental Studies. Possible topics may include: race and democracy in South Africa, sociology and politics of mass incarceration, history of the American college, food deserts in the United States, and gender in contemporary African American fiction. Along with intensive independent research and writing, students will participate in frequent collaborative activities such as peer review, discussion, and group projects.",
-        "prerequisites": "permission of the departments"
-      },
-      "Communicating_Science": {
-        "course_title": "CL Senior Writing Seminar: Communicating Science (Science)",
-        "target_class_year": "seniors",
-        "course_duration": "term course",
-        "offered_in_2025-26": true,
-        "course_description": "At the intersection of observation, experiment, and narrative lies the realm of scientific writing. In this course, students grapple with various forms of scientific communication — from the precise language of technical journals to the relatable prose of popular science. They learn to adapt complex topics for various audiences, craft persuasive arguments rooted in evidence, and communicate clearly through data presentation and visualization. This course is not confined to one scientific discipline but will explore a variety of topics which might include public health, particle physics, astrobiology, or cybernetics. At times, students will choose the scientific topics that most intrigue them for their written pieces. For instance, one student might write an abstract distilling a groundbreaking paper in particle physics, while another pens a persuasive article for the public on the need for increased funding to address mosquito-borne disease. This course not only develops key writing tools for students eyeing a future in scientific research but also opens doors for those writers who wish to bring the magic of science to broader audiences.",
-        "prerequisites": "permission of the departments"
-      },
-      "Algorithms_AI_Us": {
-        "course_title": "CL Senior Writing Seminar: Algorithms, AI, and Us (Computer Science, Design Thinking, and Entrepreneurship)",
-        "target_class_year": "seniors",
-        "course_duration": "term course",
-        "offered_in_2025-26": true,
-        "course_description": "Computers and computing have had such an impact on the modern world that it's easy to overlook the breadth of their influence. This course invites students to do the opposite: closely examine the role and impact that computers have on the human world. The course operates from the premise that it is imperative to understand not only how technologies function, but also how they interface with the ways we work, learn, play, and socialize. Our primary mode of exploring these questions will be through an older technology - prose writing. We'll begin by defining what algorithms are and how they feed off data. We'll then turn and examine specific categories of technology and how they impact parts of what it means to be human. Topics might include social media algorithms, fitness and health monitoring, algorithms in finance, and artificial intelligence. We'll also explore the ethical questions surrounding computing such as algorithmic bias, the attention economy, and questions of data privacy. In fitting with the PHI's drive to \"make something and make a difference\", the writing in this course will all engage directly with audiences that have direct stakes in the content of the course. Examples of this might include engaging authors about their work, reaching out to legislators, writing amicus briefs for current court cases, or connecting with local community members or organizations through writing. Familiarity with programming or previous coursework in computer science is not required.",
-        "prerequisites": "permission of the departments"
-      },
-      "Writing_About_Art": {
-        "course_title": "CL Senior Writing Seminar: Writing About Art (Visual Arts)",
-        "target_class_year": "seniors",
-        "course_duration": "term course",
-        "offered_in_2025-26": true,
-        "course_description": "Engaging with the work of artists and makers, curators, critics, and art historians, this course explores the intersections of writing and art. Visits to the Mercy Gallery, the Loomis Chaffee Archives, and local museums will provide students the opportunity, through criticism, exhibition texts, and essays, to contribute to ongoing cultural dialogue through their own writing. Key topics may include: the shifting roles of art and artists in society; the responsibilities of institutions, curators, and the public in shaping reception; debates about the definition of art and the significance of artistic intent; and the roles that art and objects play as agents of individualism or community building. As they explore writing by critics such as Susan Sontag, John Berger, and Claire Dederer, among others, students will craft their own reflections, analysis, and commentary inspired by art and material culture.",
-        "prerequisites": "permission of the departments"
-      },
-      "Independent_Studies_English": {
-        "course_title": "Independent Studies in English",
-        "target_class_year": "N/A",
-        "course_duration": "term course",
-        "offered_in_2025-26": true,
-        "course_description": "A student who wishes to undertake an Independent Study Project (ISP) in English must arrange for a project advisor from within the department, submit a written proposal, and obtain approval from the academic advisor, project advisor, department head, and dean of faculty. The ISP must be carried as a second English elective.",
-        "prerequisites": "approval from academic advisor, project advisor, department head, and dean of faculty"
-      }
+    {
+      "title": "English IV: Banned Books",
+      "description": "Books have been banned, burned, seized, and sanitized throughout history. Even today, school administrators, religious leaders, authoritarian regimes, and democracies continue to censor texts that pose a threat to their values. With societies around the world opening new conversations on free speech and political correctness, this course aims to consider when, if ever, censorship is justified. In doing so, we will discuss how banned books reflect the cultures in which they are written. Readings will include texts banned on political grounds (e.g., Fahrenheit 451, Wild Swans), on religious grounds (e.g., Slaughterhouse-Five, The Satanic Verses), on moral grounds (e.g., \"The Wife of Bath's Tale,\" The Handmaid's Tale, The Bluest Eye), and for other controversial content (e.g., The Adventures of Huckleberry Finn, Drown).",
+      "department": "English",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "English IV: Ghosts and Monsters",
+      "description": "Parul Sehgal characterizes ghost stories as \"social critiques camouflaged with cobwebs\" and \"vessel[s] for collective terror and guilt, for the unspeakable\" in his 2018 New York Times article, \"The Ghost Story Persists in American Literature. Why?\" Ghost stories have been around for as long as people have been; they have long served as the vehicles through which societies and individuals express their fears, traumas, and things best swept under the rug. If history is written by winners, then ghost stories are written by losers — or, those disenfranchised seeking to reclaim their voice. Spanning all forms and all cultures, the ghost story is a universally employed medium to commune with things that most would prefer stay under the bed. In this course, students will learn not only about the many ghosts of our society and how they take form, but also of art as a form of activism and a memorial of past injustices. The course will emphasize ideas of the importance of truth-telling and the power of old wives' tales, fairy tales, or the stories told by those we all too often dismiss as crazy. Representative texts might include Ahmed Saadawi's Frankenstein in Baghdad, Carmen Maria Machado's Her Body and Other Parties, Charlotte Brontë's Jane Eyre, and others.",
+      "department": "English",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "English IV: Graphic Novel (GESC)",
+      "description": "Since the ground-breaking publication of Art Spiegelman's Maus in 1993, graphic novels have entered the global cultural and academic mainstream, inspiring complex interdisciplinary and multicultural analyses. In this course students will survey the current field and read works of fiction (Watchmen, Asterios Polyp, The Arrival), autobiography (Maus, Persepolis, Fun Home), and journalism (Safe Area Gorazade). In order to understand these works and the cultures that produced them, students will write essays using interpretive lenses focusing on history, gender, psychology, and class. Students will also explore the relationship between text and image in analyses as well as develop short sequential art sequences of their own.",
+      "department": "English",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "English IV: Migrant Stories (GESC)",
+      "description": "Humans migrating to new places, new countries, and new continents is a story as old as time—not just something for the current news cycle. In this course, we will read the stories of individuals and groups who have journeyed to new places—often out of a desire for a better life but just as often because of involuntary displacement or the need to escape horrific circumstances. Of course, with this change of region, country, or continent comes not only some form of severance from the old place and the old culture but the need to cope with the strangeness of a new country and culture. Consequently, many of the questions we will ask of these texts will concern personal identity—how much is it tied to place? Does a new country or place mean a new identity? What does it mean to reconstruct one's life in a new place? Migration is not a narrow or isolated experience—there's a broad range of groups who have experienced and written about this experience—from Irish immigrants fleeing the 1840s Irish famine to the Great Migration in the early-to-mid-20th century to modern migrants fleeing poverty and political strife in Central and South America, Africa, Asia, and Europe. Potential texts might include Wilson's Joe Turner's Come and Gone, Adichie's Americanah, Cisneros' House on Mango Street, Nayeri's The Ungrateful Refugee: What Immigrants Never Tell You or The Penguin Book of Migration Literature.",
+      "department": "English",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "English IV: Race, Roles, and Religion (GESC)",
+      "description": "In our increasingly interconnected world, literature can provide insight into the broadest palate of human experiences. Exploring the fiction, poetry, essays, and drama of writers beyond the traditional Western canon, this senior elective will examine boundaries: race, age, ethnicity, gender, nation, physical ability, sexuality, religion. Topics will focus on questions of culture and identity from global and literary perspectives. Students will read and respond to a rich diversity in experience and traditions. Authors will vary according to the term and may include the works of Chinua Achebe, Aravind Adiga, Sherman Alexie, James Baldwin, Kate Chopin, Countee Cullen, Edwidge Danticat, Jonathan Safran Foer, Rebecca Gilman, Langston Hughes, Jhumpa Lahiri, Nella Larsen, Jonathan Lethem, Toni Morrison, Alice Munro, Téa Obreht, Maggie O'Farrell, Grace Paley, Ann Patchett, Amy Tan, Gene Toomer, Alice Walker, Wendy Wasserstein, Virginia Woolf, and Richard Wright.",
+      "department": "English",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "English IV: Satire",
+      "description": "As a literary genre, satire has been around as long as writers have had the audacity to address the foibles of humanity. Juvenal, the Roman satirist, once said, \"It's hard not to write satire,\" suggesting that targets abound for those willing to poke fun at their fellow human beings and their many institutions. Through exploration of satirical novels and pop culture publications alike, this course explores how writers use wit and irony to challenge norms, expose hypocrisy, and spark conversation. Along the way, students examine both how and why satire works, considering in the process the role of humor, hyperbole, mockery, understatement, and other tools of the trade. Representative texts may include the works of authors such as Jonathan Swift, Kurt Vonnegut, Jane Austen, Paul Beatty, and Nana Kwame Adjei-Brenyah.",
+      "department": "English",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "English IV: Stories of War",
+      "description": "One of the unfortunate realities of human history is our species' tendency toward conflict. This course will eschew the historical and political causes of war in an attempt to understand the mythological, symbolic, literary, and psychological perspectives of the individual soldier. Sub-themes might include the transformative power of combat and violence, the brotherhood forged between fellow soldiers, the social ramifications on the homefront, or the cultural shifts in societies embroiled in war. Readings will focus on fictionalized accounts of wartime experience in combination with literary non-fiction produced by combat veterans and journalists. Students will be expected to grapple with the conflicting ideals of duty, honor, patriotism, exhilaration, fear, shame, regret, confusion, and betrayal. Potential texts include works by Ernest Hemingway, Sebastian Junger, Kristen Hannah, Uzodinma Iweala, and others.",
+      "department": "English",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "CL English IV: Contemporary Literature",
+      "description": "This course offers a study of a variety of contemporary novels, short stories, plays, poems, essays, and articles. The course focuses on understanding the values and attitudes expressed by contemporary writers, including those who write about social issues and cultural development. In recent sections of the course, students have explored works by writers including Ocean Vuong, Jesmyn Ward, Colson Whitehead, Rebecca Makkai, as well as a range of other contemporary poets, fiction writers, and essayists.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "CL English IV: Creative Writing",
+      "description": "This course gives students the opportunity to study the techniques and styles of professional writers; to study the work of other students; and to practice writing in a variety of styles and genres. Throughout the term, students will examine the work of master storytellers to glean the secrets of the trade and gain a better understanding of the elements of the craft, including characterization, diction, plot structure, dialogue, point of view, and voice.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "CL English IV: Literary Adaptation and Reinvention (GESC)",
+      "description": "Great stories are rarely told just once—they're retold, reimagined, and transformed across different cultures, times, and mediums. This course explores the art of literary adaptation, examining how stories are transformed across a range of forms, from novels, short stories, poems, and plays to their retellings in other literary genres, performance arts, film, or other visual arts. Through comparative study, we'll ask critical questions such as: What changes when a story transitions between different forms, and what does that reveal about the storytelling tools of those different creative forms? How do creators—be they writers, directors, or other artists—reinterpret texts for new audiences? What roles do historical, cultural, and artistic contexts play in shaping these adaptations? With a focus on analyzing both original texts and their diverse adaptations, students will consider not only how meaning is constructed differently across mediums but also how adaptations can illuminate or obscure aspects of race, gender, class, and culture.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": true,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "CL English IV: Literature and the Environment (GESC)",
+      "description": "How does place shape identity? Is the natural world a physical resource to be exploited or conserved, a challenge to be conquered, or a sacred space to be preserved and revered? Exploring the connections between literary texts and the history of environmental thought, this course will focus on the cultural, metaphorical, and symbolic values of the non-human world, while also investigating its ecological significance. From wilderness to the worked landscape, from suburban to urban environments, students will examine the ways that the language of literature, film, and popular media construct our awareness and appreciation of the non-human world. Potential texts include works by Henry David Thoreau, Leslie Marmon Silko, Wendell Berry, Octavia Butler, and others. In addition to analytical writing, students will write creatively about their own experiences in and with the natural world.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": true,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "CL English IV: Magical Realism (GESC)",
+      "description": "Magical realism is a form of literature that collapses the boundary between the fantastical and the ordinary, forcing the reader to see \"reality\" through new eyes. Closely associated with 20th-century Latin American authors such as Gabriel García Márquez and Jorge Luis Borges, magical realism has attained a truly global reach, as writers and artists from around the world have employed it to reflect and refract deeper understandings of society. This course will explore magical realism in its Latin American context and across cultures, in prose, poetry, and film. Beginning with the works of Márquez and Borges, the course will attempt to isolate a set of characteristics that define magical realism. From there, students will explore how other authors have experimented with magical realism around the world and compare how those artists have utilized magical realism in their own ways. From the works of Lin Manuel Miranda to Kazuo Ishiguro and Jesmyn Ward, the class will see how the threads of magical realism can connect Latin America and the wider world and how place and genre can open a broader understanding of the ways artists manipulate reality to develop meaning.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": true,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "CL English IV: The Harlem Renaissance",
+      "description": "This CL senior elective is designed to give students their first entry into a focused study of one of the most important periods of American literature, art, and culture. Spanning a period from roughly the mid-1910s through the mid-1930s, the Harlem Renaissance was a time when mass migration to Northern cities brought together numerous African-American writers, artists, scholars, and musicians in the Harlem neighborhood of New York City. This course will focus on some of the prominent writers of the movement in an attempt to uncover the stylistic tendencies of their work and the impact those writings had, both on other writers of the period and on the larger culture as a whole. Students will also experience a selection of art, music, and essay as they develop strategies for understanding what bound these artists together into a generally accepted \"movement\" and for determining how their work still influences writers today. Students will be expected to connect their close reading of individual texts to broader literary and social context. Readings might include texts such as Harlem Shadows, When Washington Was in Vogue, Quicksand, and The Blacker the Berry, and the course will also examine music, poetry, art, and essay from the period.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "CL English IV: Shakespeare",
+      "description": "Shakespeare is widely recognized as among the greatest—and certainly most influential—writers in the history of the English language. What makes his works endure? This course gives students the opportunity to explore this question for themselves, offering a deep dive into selected plays and sonnets. Students will consider how these texts were staged and received in their original Elizabethan and Jacobean contexts as well how they continue to be reinterpreted for modern audiences. Through close textual analysis and discussion of theatrical conventions across centuries, students will uncover the richness of Shakespeare's language and probe its dramatic potential. Selected texts will reflect a range of genres, and may include plays such as Henry IV, Henry V, Much Ado About Nothing, King Lear, The Tempest, and The Merchant of Venice.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "CL English IV: Writing from the Arab World (GESC)",
+      "description": "The Arab world has a rich literary tradition that pre-dates Islam, and today, Arab writers continue to generate and maintain an equally rich intellectual culture. This course will explore different contemporary authors and different genres that depict a variety of characters, circumstances, and themes, the goal of which is to help broaden our understanding of a culture both modern, shaped by a complex history, and steeped in rich tradition. This cross section of literature in translation takes us beyond both stereotype and misinformation, and beyond our understanding of the Middle East as only a region of chaos, refugees, and terrorism. Possible texts include: Fadia Faqir, Pillars of Salt; Abd al-Rahman Munif, Endings; Mahmoud Darwish, Memory of Forgetfulness; and a compilation of poetry and short stories by Naguib Mahfouz, Yusef Idris, Salwa Bakr, Adunis, and Nizar Qabbani.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": true,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "CL Senior Writing Seminar: Guided Humanities Research (History, Philosophy & Religious Studies)",
+      "description": "This course provides students with opportunities to develop and refine college-level skills for inquiry, research, analytical thinking, and writing as they complete a research project in the humanities. Students will engage in sustained, significant, mentored research that draws on previous academic courses, such as United States History, experiences gained from work in their communities, or through the Norton Family Center for the Common Good and the Alvord Center for Global & Environmental Studies. Possible topics may include: race and democracy in South Africa, sociology and politics of mass incarceration, history of the American college, food deserts in the United States, and gender in contemporary African American fiction. Along with intensive independent research and writing, students will participate in frequent collaborative activities such as peer review, discussion, and group projects.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "CL Senior Writing Seminar: Communicating Science (Science)",
+      "description": "At the intersection of observation, experiment, and narrative lies the realm of scientific writing. In this course, students grapple with various forms of scientific communication — from the precise language of technical journals to the relatable prose of popular science. They learn to adapt complex topics for various audiences, craft persuasive arguments rooted in evidence, and communicate clearly through data presentation and visualization. This course is not confined to one scientific discipline but will explore a variety of topics which might include public health, particle physics, astrobiology, or cybernetics. At times, students will choose the scientific topics that most intrigue them for their written pieces. For instance, one student might write an abstract distilling a groundbreaking paper in particle physics, while another pens a persuasive article for the public on the need for increased funding to address mosquito-borne disease. This course not only develops key writing tools for students eyeing a future in scientific research but also opens doors for those writers who wish to bring the magic of science to broader audiences.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "CL Senior Writing Seminar: Algorithms, AI, and Us (Computer Science, Design Thinking, and Entrepreneurship)",
+      "description": "Computers and computing have had such an impact on the modern world that it's easy to overlook the breadth of their influence. This course invites students to do the opposite: closely examine the role and impact that computers have on the human world. The course operates from the premise that it is imperative to understand not only how technologies function, but also how they interface with the ways we work, learn, play, and socialize. Our primary mode of exploring these questions will be through an older technology - prose writing. We'll begin by defining what algorithms are and how they feed off data. We'll then turn and examine specific categories of technology and how they impact parts of what it means to be human. Topics might include social media algorithms, fitness and health monitoring, algorithms in finance, and artificial intelligence. We'll also explore the ethical questions surrounding computing such as algorithmic bias, the attention economy, and questions of data privacy. In fitting with the PHI's drive to \"make something and make a difference\", the writing in this course will all engage directly with audiences that have direct stakes in the content of the course. Examples of this might include engaging authors about their work, reaching out to legislators, writing amicus briefs for current court cases, or connecting with local community members or organizations through writing. Familiarity with programming or previous coursework in computer science is not required.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "CL Senior Writing Seminar: Writing About Art (Visual Arts)",
+      "description": "Engaging with the work of artists and makers, curators, critics, and art historians, this course explores the intersections of writing and art. Visits to the Mercy Gallery, the Loomis Chaffee Archives, and local museums will provide students the opportunity, through criticism, exhibition texts, and essays, to contribute to ongoing cultural dialogue through their own writing. Key topics may include: the shifting roles of art and artists in society; the responsibilities of institutions, curators, and the public in shaping reception; debates about the definition of art and the significance of artistic intent; and the roles that art and objects play as agents of individualism or community building. As they explore writing by critics such as Susan Sontag, John Berger, and Claire Dederer, among others, students will craft their own reflections, analysis, and commentary inspired by art and material culture.",
+      "department": "English",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, true]
+    },
+    {
+      "title": "Independent Studies in English",
+      "description": "A student who wishes to undertake an Independent Study Project (ISP) in English must arrange for a project advisor from within the department, submit a written proposal, and obtain approval from the academic advisor, project advisor, department head, and dean of faculty. The ISP must be carried as a second English elective.",
+      "department": "English",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": false,
+      "term": "term course",
+      "offered_in_25-26": true,
+      "required": false,
+      "grades": [9, 10, 11, 12],
+      "prerequisite": [null, true]
     }
-  }
+  ]
 }

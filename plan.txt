@@ -33,7 +33,7 @@ sample field in json tree:
       "ppr": false,
       "term": "term",
       "offered_in_25-26": true,
-      "required": false,
+      "required": false, //this is whether or not required for department credits. 
       "grades": [9, 10], // this is the target class year that the course will be offered to; if it is offered to all classes, simply put 9, 10, 11, and 12 all on there
       "prerequisite": ["Exact course title", false] //false or true is whether or not the class needs permission of departments. 
     },
