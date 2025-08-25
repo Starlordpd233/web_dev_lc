@@ -1,7 +1,9 @@
 
 
-Carefully analyze the attached PDF, take as long as you need. It is a document containing the information on course offerings and their descriptions. 
-I need to transform this PDF into accurate conversion into markdown file that I will later use, which is a better format for data collection 
+Carefully analyze the attached PDF and photos, take as long as you need. The PDF document is a document containing 
+the information on course offerings and their descriptions. The photos are screenshots of every page of the PDF document.
+I need to transform this PDF into accurate conversion into markdown file that I will later use, which is a better 
+format for data collection 
 from this document than PDF. What's very annoying about this PDF is that it's not written and organized in a typical PDF. 
 
 
@@ -60,11 +62,15 @@ still mentioned as a 'course' that student can take (most often as term courses)
 
 
 Here is what I need you to help me for: you have to have a solid understanding of the format of the organization of the PDF from the attached 
-images and then help me 
-check the content of my markdown file so that it accurately ONLY contains information about the courses only. Follow the format as instructed above.
+images and then help me check the content of my markdown file so that it accurately ONLY contains information 
+about the courses only. Follow the format as instructed above. 
+
+REMEMBER TO USE YOUR TOOL FOR BOTH PDF EXTRACTION AND IMAGE ANALYSIS for crossing referencing the information from both types of files.
+The reason I provided with you both is exactly so that you can double check your extraction of information and double confirm with each other
+before you identify any incorrect codes in the markdown file.
 
 
-I have attached the markdown file. While you do the conversion, make sure you also pay attention to any typos or any other error 
+I have attached the markdown file. While you check, make sure you also pay attention to any typos or any other error 
 sections/sentences that clearly has a misinformation during previous conversion. You do not need to provide the updated complete code. 
 Just identify clearly, if there is any, of places that are incorrect. Then, for those places that need to be updated/replaced because of errors,
-be sure to provide me with the complete, raw code replacement in your code editor of the ENTIRE section about the course.
+be sure to provide me with the complete, raw code replacement in your code editor of the ENTIRE section about the course. 

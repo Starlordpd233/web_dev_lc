@@ -1,6 +1,7 @@
 
 
-Carefully analyze the attached PDF, take as long as you need. It is a document containing the information on course offerings and their descriptions. 
+Carefully analyze the attached photos/screenshots, take as long as you need. they are screenshots from a PDF document 
+containing the information on course offerings and their descriptions. 
 I need to transform this PDF into accurate conversion into markdown file that I will later use, which is a better format for data collection 
 from this document than PDF. What's very annoying about this PDF is that it's not written and organized in a typical PDF. 
 
@@ -65,6 +66,11 @@ images and then help me
 check the content of my markdown file so that it accurately ONLY contains information about the courses only. Follow the format as instructed above.
 
 
-I have attached the images and the markdown file. Check and then rewrite. Provide me with the complete, consolidated raw code.
+I have attached the images and the markdown file. Check and then rewrite.
 While you do the conversion, make sure you pay attention to any typos or any other error 
-sections/sentences that clearly has a misinformation during previous conversion.
+sections/sentences that clearly has a misinformation during previous conversion. Your ultimate goal is to make sure that this markdown
+file is exactly the same as what's written on the PDF (or in the screenshots).
+
+
+
+Provide me with the complete, consolidated raw code in markdown syntax.

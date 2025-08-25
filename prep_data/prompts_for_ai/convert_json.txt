@@ -1,0 +1,106 @@
+Convert the markdown files into a json file with the following sample structure:
+
+
+{
+  "department": "Mathematics",
+  "courses": [
+    {
+      "title": "course title",
+      "description": "description.",
+      "department": "department",
+      "rigor": 1, //1, 2 or 3 for reg, advanced, cl respectively
+      "gesc": false,
+      "ppr": false,
+      "term": "term",
+      "offered_in_25-26": true,
+      "required": false, //this is whether or not required for department credits. 
+      "grades": [9, 10], // this is the target class year that the course will be offered to; if it is offered to all classes, simply put 9, 10, 11, and 12 all on there
+      "prerequisite": ["Exact course title", false] //false or true is whether or not the class needs permission of departments. 
+    },
+    ...
+  ]
+}
+
+
+
+For the logic of the prerequisite, adopt the following instruction:
+Change the prerequisite field to accept **either** the current format (for simple cases) **or** an object (for complex cases):
+
+```json
+// Simple cases (backward compatible):
+"prerequisite": ["World History", false]  // Single course
+"prerequisite": [null, true]              // Permission only
+
+// Complex cases (new object format):
+"prerequisite": {
+  "courses": ["Biology", "Chemistry"],    // Array of required courses
+  "permission": true,                     // Boolean for permission requirement
+  "type": "AND",                          // "AND" or "OR" logic for multiple courses
+  "corequisite": false,                   // Boolean for co-requisite vs prerequisite
+  "grade_restriction": null,              // e.g., "juniors and seniors" or null
+  "notes": null                           // Additional text for special cases
+}
+```
+
+## Mapping the 8 Combinations
+
+1. **Single Specific Course**
+   ```json
+   "prerequisite": ["World History", false]
+   ```
+
+2. **Permission of Department**
+   ```json
+   "prerequisite": [null, true]
+   ```
+
+3. **Course OR Permission**
+   ```json
+   "prerequisite": ["Arabic I", true]
+   ```
+
+4. **Co-Requisite**
+   ```json
+   "prerequisite": {
+     "courses": ["Advanced Precalculus"],
+     "permission": false,
+     "type": "OR",
+     "corequisite": true
+   }
+   ```
+
+5. **Multiple Courses (AND logic)**
+   ```json
+   "prerequisite": {
+     "courses": ["Biology", "Chemistry"],
+     "permission": false,
+     "type": "AND"
+   }
+   ```
+
+6. **Written Proposal (Independent Study)**
+   ```json
+   "prerequisite": {
+     "courses": null,
+     "permission": true,
+     "notes": "written proposal approved by academic advisor, project advisor, department head, and dean of faculty"
+   }
+   ```
+
+7. **Grade Level with Permission**
+   ```json
+   "prerequisite": {
+     "courses": null,
+     "permission": true,
+     "grade_restriction": "juniors and seniors"
+   }
+   ```
+
+8. **Multiple Courses + Permission**
+   ```json
+   "prerequisite": {
+     "courses": ["United States History", "CL United States History"],
+     "permission": true,
+     "type": "OR"
+   }
+   ```

@@ -1,11 +1,12 @@
 
 
-Carefully analyze the attached PDF, take as long as you need. It is a document containing the information on course offerings and their descriptions. 
+Carefully analyze the attached photos/screenshots, take as long as you need. they are screenshots from a PDF document 
+containing the information on course offerings and their descriptions at a local high school.
 I need to transform this PDF into accurate conversion into markdown file that I will later use, which is a better format for data collection 
 from this document than PDF. What's very annoying about this PDF is that it's not written and organized in a typical PDF. 
 
 
-As you can see in the PDF, it is composed of rectangular sections or blocks of courses; each little section is its own course, 
+As you can see in the images, it is composed of rectangular sections or blocks of courses; each little section is its own course, 
 with the course title as the first line (may contain the phrase "GESC" or "PPR" or not), 
 and the second line is a subheader that indicates: to which class year it is offered (ex. sophomore), 
 if it's a term course/half course (if not mentioned that means year course as default), and which term it is offered (if not mentioned, 
@@ -52,7 +53,8 @@ that specifies the start of a new category of courses,
 under which there's a paragraph of text description of the category itself which are NOT the actual information that I will need. From now on for other 
 documents that I will attach later, what you need to do is to keep the big headers and delete this paragraph of bolded (bigger) texts that are clearly not information 
 about the courses themselves, which are explanations of what these electives/categories are, that are not needed for my markdown file. 
-Be sure to clearly identify the exact texts before deleting to confirm the precision of your deletion. 
+Be sure to clearly identify the exact texts before deleting to confirm the precision of your deletion. Ignore any decorative images
+on the documents.
 
 The document (images) might also sometimes contain other "non-course" blocks that have the same format with the real courses. One exampel is
 the study (school year) abroad programs. I don't need these programs (study abroad programs might be the only one in this category; correct me if I'm wrong).
@@ -65,7 +67,13 @@ images and then help me
 check the content of my markdown file so that it accurately ONLY contains information about the courses only. Follow the format as instructed above.
 
 
-I have attached the first few images. Only work for the courses covered in the image. I will provide you with new images once you finish.
-Below is the content of the markdown file. Check and then rewrite. Provide me with the complete, consolidated raw code.
+Below is the psated content of my current markdown file. Check and then rewrite. 
 While you do the conversion, make sure you pay attention to any typos or any other error 
-sections/sentences that clearly has a misinformation during previous conversion:
+sections/sentences that clearly has a misinformation during previous conversion. Your ultimate goal is to make sure that this markdown
+file is exactly the same as what's written on the PDF (or in the screenshots).
+
+Here's the pasted content of the current markdown file:
+
+
+
+Provide me with the complete, consolidated raw code in markdown syntax.

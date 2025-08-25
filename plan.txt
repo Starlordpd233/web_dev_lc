@@ -44,6 +44,8 @@ sample field in json tree:
 
 Notes:
 
+– what should we do about the Innovation Trimester ITri?
+
 – For "STATISTICS I (GESC) winter" and "STATISTICS II (GESC) spring", ignore for now about this course, since information very unclear. 
 
 – for "UPPER-LEVEL LATIN", ignore for now since it's unclear how the course registration works exactly.
@@ -54,6 +56,84 @@ being offered or not in 2025-26.
 
 – Clearly examine the subheaders for the arts classes. For example, in the class "ART OF DANCE", delete the 'daytime' description from subheader.
 – delete those classes that are offered as "after-school tem" or "physical exertion activity", that are not real classes. 
+
+
+
+
+
+
+
+### **1. Single Specific Course**  
+A single named course is required (e.g., *“Prerequisite: World History”*).
+
+
+### **2. Permission of the Department/Faculty**  
+No specific course is required; instead, permission from the department or faculty is mandated (e.g., *“Prerequisite: permission of the department”*).
+
+
+### **3. Combination of a Specific Course and Permission**  
+Either a specific course or departmental permission is acceptable (e.g., *“Prerequisite: Arabic I or permission of the department”*).
+
+
+### **4. Co-Requisite**  
+A concurrent course must be taken alongside the target course (e.g., *“Co-requisite: Advanced Precalculus or Precalculus with permission of the department”*).
+
+
+### **5. Multiple Courses**  
+Two or more courses are required (e.g., *“Prerequisites: Biology and Chemistry”*).
+
+
+### **6. Written Proposal Approval**  
+For independent study courses, a formal proposal approved by advisors is required (e.g., *“Prerequisite: written proposal approved by the academic advisor, project advisor, department head, and dean of faculty”*).
+
+
+### **7. Specific Grade Level with Permission**  
+Permission is granted based on grade level (e.g., *“Prerequisite: seniors; juniors with permission of the department”*).
+
+
+### **8. Combination of Multiple Courses and Permission**  
+Multiple courses are required, plus departmental permission (e.g., *“Prerequisites: United States History or CL United States History; permission of the department”*).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 2. study resources hub: 
