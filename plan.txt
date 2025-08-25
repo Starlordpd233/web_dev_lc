@@ -16,7 +16,7 @@ Next steps for database:
 2. add the department for all courses; put courses under them in json tree
 – English, Languages, Mathematics, Science, HPR, Social Science, Computer Science, Performing Arts, Visual Arts, Study Abroad
 3. use title for prerequisite
-4. identify any corrupted names from the responses by AI
+4. identify any corrupted names from the responses by AI.
 
 
 sample field in json tree:
