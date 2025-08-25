@@ -25,7 +25,7 @@
     "title": "WRITING WORKSHOP",
     "description": "take Writing Workshop, which meets once a cycle through the year. The workshop program includes targeted and focused instruction on the writing process and a systematic review of formal structures of language.",
     "gesc": false,
-    "term": "multiple",
+    "term": "full-year",
     "required": true,
     "grades": [
       10
