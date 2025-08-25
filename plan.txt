@@ -19,6 +19,23 @@ Next steps for database:
 4. identify any corrupted names from the responses by AI
 
 
+sample field in json tree:
+
+{
+    "title": "course title",
+    "description": "description."
+    "department": "department"
+    "gesc": false,
+    "ppr": false,
+    "duration": "full-year" or "term" or "two terms" "half course"
+    "required": true,
+    "grades": [
+        9
+    ],
+    "prerequisite": null // or ["A2A", true/false]
+} 
+
+
 2. study resources hub: 
 – holds various resources for various classes, especially math and sciences 
 – For certain classes that we have enough information, we can ask teachers for course syllabus
