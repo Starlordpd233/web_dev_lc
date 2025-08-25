@@ -1231,6 +1231,69 @@
       ],
       "Other": [
       {
+        "title": "School Year Abroad in France",
+        "description": "Please see Alternate Study beginning on page 58.",
+        "department": "Languages",
+        "rigor": 1,
+        "gesc": false,
+        "ppr": false,
+        "term": "year course",
+        "offered_in_25-26": true,
+        "required": false,
+        "grades": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "prerequisite": [
+          null,
+          true
+        ]
+      },
+      {
+        "title": "School Year Abroad in Spain",
+        "description": "Please see Alternate Study beginning on page 58.",
+        "department": "Languages",
+        "rigor": 1,
+        "gesc": false,
+        "ppr": false,
+        "term": "year course",
+        "offered_in_25-26": true,
+        "required": false,
+        "grades": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "prerequisite": [
+          null,
+          true
+        ]
+      },
+      {
+        "title": "Upper-Level Latin",
+        "description": "After completing the equivalent of Latin III, a student may enroll in a fourth, fifth, and even a sixth level of Latin by selecting any combination of the two cycles of term electives and the CL Latin course.",
+        "department": "Languages",
+        "rigor": 1,
+        "gesc": false,
+        "ppr": false,
+        "term": "informational",
+        "offered_in_25-26": true,
+        "required": false,
+        "grades": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "prerequisite": [
+          "LATIN III",
+          true
+        ]
+      },
+      {
         "title": "Global, Digital Cultures (GESC)",
         "description": "Will our fascination with social media and technology lead to our downfall or will it save us? Does technology lead us to become more distrustful of one another and more attached to static definitions of identity, or does it foster better connections and more fluid conceptions of identity? To what extent are our very thoughts shaped by decisions made within the programs we interact with on a daily basis? By examining the effects that digital technology and algorithms have had on the practices and products of modern society through a variety of cultural lenses and texts, we will seek to gain a more nuanced understanding of the way the digital age is shaping the way we live, interact, and communicate. Resources guiding our investigation will include excerpts of popular films and shows such as Andrew Stanton’s WALL-E and Charlie Brooker’s Black Mirror; these will be complemented by literary texts (e.g., Richard Powers’ The Overstory) and articles. Prerequisite: open to seniors, juniors, and sophomores by permission of the department",
         "department": "Languages",
