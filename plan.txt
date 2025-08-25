@@ -25,6 +25,7 @@ sample field in json tree:
     "title": "course title",
     "description": "description."
     "department": "department"
+    "rigor": 1 //1, 2 or 3 for reg, advanced, cl respectively
     "gesc": false,
     "ppr": false,
     "duration": "full-year" or "term" or "two terms" "half course"
