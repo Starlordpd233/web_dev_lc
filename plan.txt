@@ -8,6 +8,17 @@ if they are good for the graduation requirements or maximum courses allowed, num
 so far, that automatically tells me whether they're missing a prerequisite, when they select this course. Add this feature later once core features are
 done. 
 
+
+
+
+Next steps for database:
+1. add the grade
+2. add the department for all courses; put courses under them in json tree
+– English, Languages, Mathematics, Science, HPR, Social Science, Computer Science, Performing Arts, Visual Arts, Study Abroad
+3. use title for prerequisite
+4. identify any corrupted names from the responses by AI
+
+
 2. study resources hub: 
 – holds various resources for various classes, especially math and sciences 
 – For certain classes that we have enough information, we can ask teachers for course syllabus
