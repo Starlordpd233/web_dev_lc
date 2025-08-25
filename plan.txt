@@ -22,18 +22,35 @@ Next steps for database:
 sample field in json tree:
 
 {
-    "title": "course title",
-    "description": "description."
-    "department": "department"
+"department": "Mathematics",
+  "courses": [
+    {
+    "title": "GEOMETRY - ALGEBRA I",
+    "description": "This course is for those students who either have not had a full year of Algebra I or need to strengthen their algebra skills before heading into Algebra II and subsequent curriculum. It covers properties of the real number system, linear and quadratic equations, and prop- erties of exponents and radicals while also introducing students to Euclidian geometry of two and three dimensions. Students develop competence with the graphs of linear, qua- dratic, and exponential equations, and master multiple techniques for solving equations and simplifying algebraic expressions. This course emphasizes the development of algebraic and geometric skills and utilizes Desmos, Delta Math, Problem Attic, and Geogebra. Students who successfully complete this course will have met the diploma requirement for Geometry and be prepared for Algebra II.",
     "gesc": false,
-    "ppr": false,
-    "duration": "full-year" or "term" or "two terms" "half course"
-    "required": true,
-    "grades": [
-        9
-    ],
-    "prerequisite": null // or ["A2A", true/false]
-} 
+    "ppr": false
+    "term": "term",
+    "offered_in_25-26": true,
+    "required": false,
+    "grades": [9, 10], // this is the target class year that the course will be offered to; if it is offered to all classes, simply put 9, 10, 11, and 12 all on there
+    "prerequisite": ["Exact course title", false] //false or true is whether or not the class needs permission of departments. 
+  },
+  ...]
+}
+
+
+Notes:
+
+– For "STATISTICS I (GESC) winter" and "STATISTICS II (GESC) spring", ignore for now about this course, since information very unclear. 
+
+– for "UPPER-LEVEL LATIN", ignore for now since it's unclear how the course registration works exactly.
+
+- For CL TOPICS IN COMPUTER SCIENCE A and CL TOPICS IN COMPUTER SCIENCE B, it should be two different,
+separate json fields, each json having the same information except the true and false for the state of
+being offered or not in 2025-26. 
+
+– Clearly examine the subheaders for the arts classes. For example, in the class "ART OF DANCE", delete the 'daytime' description from subheader.
+– delete those classes that are offered as "after-school tem" or "physical exertion activity", that are not real classes. 
 
 
 2. study resources hub: 
