@@ -1,0 +1,280 @@
+{
+  "department": "History, Philosophy & Religious Studies",
+  "courses": [
+    {
+      "title": "CL United States History",
+      "description": "The expectations of this course are set at those of a first-year undergraduate skills-based seminar course in American history, with a focus on the craft of history, including sustained analysis of historical sources, frequent writing, and original inquiry and thinking. Students will participate in student-directed discussions, work with a variety of primary and secondary sources, develop independent research skills, and display a high level of engagement in all areas of the course. The course surveys American history chronologically up to the present and raises questions about what fair and equitable narratives of American history can and should entail. This course is not designed to prepare students for the AP United States History exam.",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "duration": "full-year",
+      "required": false,
+      "grades": [11],
+      "prerequisite": ["World History", true]
+    },
+    {
+      "title": "Civilizations That Changed the World",
+      "description": "This course explores the histories of premodern societies most commonly deemed 'classical,' focusing on Mesopotamia, Egypt, Greece, and Rome. Students will challenge traditional narratives and examine how ideas of 'classical' have evolved. The course culminates in student-led case studies of other civilizations.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": false,
+      "duration": "term",
+      "required": false,
+      "grades": [10],
+      "prerequisite": ["World History", false]
+    },
+    {
+      "title": "Modern African History: Riot, Rebellion, and Freedom",
+      "description": "This course examines outbreaks of violence in Africa during the post-colonial independence movements (1950s–1980s). Students explore political, economic, and social roots of events such as the Rwandan genocide, the Suez Crisis, and apartheid in South Africa.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": false,
+      "duration": "term",
+      "required": false,
+      "grades": [10],
+      "prerequisite": ["World History", false]
+    },
+    {
+      "title": "Advanced Seminar: History of the Present",
+      "description": "This seminar examines the interplay between historical context and contemporary issues such as politics, race, gender, and environment. Students research current issues, apply historical thinking, and present findings to authentic audiences.",
+      "rigor": 2,
+      "gesc": true,
+      "ppr": false,
+      "duration": "term",
+      "required": false,
+      "grades": [10],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "CL European History",
+      "description": "Analyzes significant cultural, political, and social movements in Europe from 1450 to present, including Reformation, Enlightenment, industrialization, imperialism, and global conflict. Students develop historical analysis and interpretation skills.",
+      "rigor": 3,
+      "gesc": true,
+      "ppr": false,
+      "duration": "full-year",
+      "required": false,
+      "grades": [10],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "World History",
+      "description": "Introduces students to historical thinking and world narratives, emphasizing analysis of primary and secondary sources, multiple perspectives, and argumentation. Fulfills the world history diploma requirement.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": false,
+      "duration": "full-year",
+      "required": true,
+      "grades": [9, 10],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "United States History",
+      "description": "Explores an equitable narrative of the American experience by prioritizing diverse voices. Students engage in primary-source analysis, research, and connections to contemporary issues.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": false,
+      "duration": "full-year",
+      "required": true,
+      "grades": [11],
+      "prerequisite": ["World History", false]
+    },
+    {
+      "title": "The Middle East: A History of Peace and Conflict",
+      "description": "Explores the Arab-Israeli conflict, collapse of the Ottoman Empire, rise of nationalism, and U.S. involvement in the Middle East, with a focus on peace efforts and global implications.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": false,
+      "duration": "term",
+      "required": false,
+      "grades": [10, 11, 12],
+      "prerequisite": ["World History", false]
+    },
+    {
+      "title": "Genocide: Media, Remembrance, and the International Community",
+      "description": "Examines genocide in historical and media contexts, focusing on international law, human rights, and historical memory through case studies from the 20th century to present.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": false,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": ["United States History or CL United States History", false]
+    },
+    {
+      "title": "History of Sport in Society",
+      "description": "Explores the role of sport in shaping societies from ancient Greece to modern times, with focus on race, gender, and global issues through literature and history.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": false,
+      "duration": "term",
+      "required": false,
+      "grades": [12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Germany and the Holocaust",
+      "description": "Studies the rise of Nazi Germany, the Holocaust, and its aftermath, including roots of antisemitism, resistance movements, and modern legacies.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": false,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": ["World History", false]
+    },
+    {
+      "title": "CL History Seminar: The American Civil War",
+      "description": "Examines causes, events, and consequences of the Civil War and Reconstruction, using primary and secondary sources.",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": ["United States History or CL United States History", true]
+    },
+    {
+      "title": "CL History Seminar: Immigration and Ethnicity in the United States",
+      "description": "Analyzes immigration causes, ethnic identity, and U.S. policy since the 19th century through case studies of multiple ethnic groups.",
+      "rigor": 3,
+      "gesc": true,
+      "ppr": false,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": ["United States History or CL United States History", false]
+    },
+    {
+      "title": "CL History Seminar: Race in American History",
+      "description": "Explores the origins and evolution of race and racism in U.S. history, including institutional racism and intersectionality.",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": false,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": ["United States History or CL United States History", false]
+    },
+    {
+      "title": "CL History Seminar: Topics in Modern East Asian History",
+      "description": "Studies East Asian development from 1900 to present, emphasizing cultural, social, and political dynamics through research and debate.",
+      "rigor": 3,
+      "gesc": true,
+      "ppr": false,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": ["United States History or CL United States History", true]
+    },
+    {
+      "title": "Introduction to Philosophy",
+      "description": "Explores fundamental philosophical questions on knowledge, reality, and values through historical and modern perspectives.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [9, 10],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Introduction to Religious Studies",
+      "description": "Examines profound questions about existence, morality, and meaning across religious and secular traditions.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [9, 10],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Ancient Philosophy",
+      "description": "Surveys pre-Socratic thinkers, Socrates, Plato, and Aristotle, focusing on the foundations of Western philosophy.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Theory of Knowledge",
+      "description": "Investigates epistemology, skepticism, and the philosophy of mind, including modern challenges like implicit bias.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Topics in Logic",
+      "description": "Introduces deductive and inductive logic, formal proof, and principles of reasoning.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Philosophy of Nonviolence",
+      "description": "Examines philosophies of nonviolence through figures like Camus, King, and Mahavira and explores intersections with race and gender.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Comparative Religion",
+      "description": "Analyzes beliefs and practices of major world religions, emphasizing metaphysical and experiential foundations.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Literature of the Bible",
+      "description": "Explores the literary qualities and cultural impact of biblical texts.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Religion, Gender, and Sexuality",
+      "description": "Examines intersections of religion, gender roles, and sexuality across cultures and historical periods.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Skeptics and Believers: Faith and Religion in a Secular World",
+      "description": "Explores the role of religion in modern societies and challenges posed by science and secularism.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [],
+      "prerequisite": [null, false]
+    }
+  ]
+}

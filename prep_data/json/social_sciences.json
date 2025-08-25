@@ -1,0 +1,137 @@
+{
+  "department": "Social Science",
+  "courses": [
+    {
+      "title": "Contemporary Economic Perspectives",
+      "description": "Explore current issues through an economic lens. Using a theme-based approach, students analyze global topics such as social policy, international trade and development, and business and finance. Emphasis on multiple perspectives and the complexities of real-world decision-making.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [10],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Introduction to Economics",
+      "description": "An introduction to economic thinking focused on scarcity, choice, markets, supply and demand, market successes and failures, and the role of government. Discussion- and debate-heavy; accessible to all mathematical abilities.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Financial Markets",
+      "description": "Applied course covering investing fundamentals: analysis, diversification, asset allocation, portfolio optimization, trading, and active vs. passive strategies. Considers SRI vs. ESG approaches. Culminates in a project on a chosen U.S. industry.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Behavioral Economics",
+      "description": "Studies how psychological factors shape economic decisions. Topics include heuristics, biases, herding, nudging, price anchoring, and prospect theory, with applications in domains such as sports, healthcare, and social media.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "Macroeconomics",
+      "description": "A data-informed study of growth, inflation, unemployment, and policy. Uses real case studies to analyze national and global economies. Emphasizes critical thinking, discussion, and presentation.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": [null, false]
+    },
+    {
+      "title": "CL Economics",
+      "description": "College-level micro and macro in greater depth: consumer and firm behavior, market structures, labor, environmental and justice issues, government intervention; plus unemployment, inflation, GDP, growth, and international economics. Heavy use of graphical models and data interpretation. Preps most content for AP Micro and AP Macro.",
+      "rigor": 3,
+      "gesc": true,
+      "ppr": true,
+      "duration": "full-year",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": ["Calculus AB", true]
+    },
+    {
+      "title": "International Relations",
+      "description": "Puts students in policy-makers’ seats while surveying global issues through economics, geography, history, and political science. Topics can include war, human rights, trade, healthcare, energy, and food security. Emphasizes writing, debate, and nuanced analysis.",
+      "rigor": 1,
+      "gesc": true,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": ["United States History or CL United States History", false]
+    },
+    {
+      "title": "Jurisprudence: American Legal History",
+      "description": "Introduction to the U.S. legal system with focus on constitutional and criminal law. Uses historical works, case law, and recent articles. Includes oral argument and a jury selection simulation; explores school law topics such as First Amendment issues.",
+      "rigor": 1,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": ["United States History or CL United States History", false]
+    },
+    {
+      "title": "CL Social Science Seminar: Globalization",
+      "description": "Examines globalization’s histories, directions, and consequences across culture, politics, environment, and economics. Mixes historical context with current events; structured debates on foundational questions of global interconnectedness.",
+      "rigor": 3,
+      "gesc": true,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": ["United States History or CL United States History", true]
+    },
+    {
+      "title": "CL Comparative Government and Politics",
+      "description": "Comparative study of political systems in the United Kingdom, Russia, China, Iran, Mexico, and Nigeria. Topics include state formation, elections, parties, revolutions, and institutions. Prepares students for the AP Comparative Government and Politics exam.",
+      "rigor": 3,
+      "gesc": true,
+      "ppr": true,
+      "duration": "full-year",
+      "required": false,
+      "grades": [12],
+      "prerequisite": ["United States History or CL United States History", true]
+    },
+    {
+      "title": "CL Social Science Seminar: The U.S. Presidency",
+      "description": "Multidisciplinary study of the presidency, elections, and the electorate. Considers constitutional design, money, media, polarization, and identity over the last century, with analysis of news and social media impacts.",
+      "rigor": 3,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [11, 12],
+      "prerequisite": ["United States History or CL United States History", true]
+    },
+    {
+      "title": "Independent Studies in Social Science",
+      "description": "For seniors who have fulfilled both History and PPR diploma requirements. Students propose and complete an approved independent study under a department advisor.",
+      "rigor": 2,
+      "gesc": false,
+      "ppr": true,
+      "duration": "term",
+      "required": false,
+      "grades": [12],
+      "prerequisite": ["Fulfilled History and PPR diploma requirements; written proposal; advisor and administrative approvals", false]
+    }
+  ]
+}
