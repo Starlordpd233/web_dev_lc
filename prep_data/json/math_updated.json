@@ -8,7 +8,7 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": null,
+      "prerequisite": [],
       "ppr": false,
       "duration": "full-year"
     },
@@ -19,8 +19,11 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "Algebra I",
-      "ppr": false
+      "prerequisite": [
+        "Algebra I"
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "ADVANCED GEOMETRY",
@@ -29,8 +32,12 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "Algebra II and permission of the department",
-      "ppr": false
+      "prerequisite": [
+        "Algebra II",
+        "permission of the department"
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "ALGEBRA II",
@@ -39,8 +46,11 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "Algebra I or Geometry - Algebra I",
-      "ppr": false
+      "prerequisite": [
+        "Algebra I or Geometry - Algebra I"
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "ADVANCED ALGEBRA II",
@@ -49,8 +59,12 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "Algebra I and permission of the department",
-      "ppr": false
+      "prerequisite": [
+        "Algebra I",
+        "permission of the department"
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "PRECALCULUS",
@@ -59,8 +73,9 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": null,
-      "ppr": false
+      "prerequisite": [],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "ADVANCED PRECALCULUS",
@@ -69,8 +84,9 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": null,
-      "ppr": false
+      "prerequisite": [],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "ADVANCED PRECALCULUS WITH DIFFERENTIAL CALCULUS",
@@ -79,8 +95,11 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "for entry into the CL Calculus BC course.",
-      "ppr": false
+      "prerequisite": [
+        "for entry into the CL Calculus BC course."
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "TOPICS IN DISCRETE MATHEMATICS",
@@ -89,8 +108,11 @@
       "term": "fall",
       "required": false,
       "grades": [],
-      "prerequisite": "Algebra II",
-      "ppr": false
+      "prerequisite": [
+        "Algebra II"
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "STATISTICS I (winter)",
@@ -99,8 +121,11 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "Algebra II",
-      "ppr": false
+      "prerequisite": [
+        "Algebra II"
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "STATISTICS II (spring)",
@@ -109,8 +134,11 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "Algebra II Note: Statistics II may only be taken when following Statistics I.",
-      "ppr": false
+      "prerequisite": [
+        "Algebra II Note: Statistics II may only be taken when following Statistics I."
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "CL STATISTICS",
@@ -119,8 +147,12 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "Advanced Precalculus with Dif - ferential Calculus or Advanced Precalculus and permission of the department",
-      "ppr": false
+      "prerequisite": [
+        "Advanced Precalculus with Dif - ferential Calculus or Advanced Precalculus",
+        "permission of the department"
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "CALCULUS",
@@ -129,8 +161,12 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "PrecalculusCL CALCULUS AB This course covers the standard material found in a first-year college calculus.",
-      "ppr": false
+      "prerequisite": [
+        "PrecalculusCL CALCULUS AB This course covers the st",
+        "ard material found in a first-year college calculus."
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "CL CALCULUS BC",
@@ -139,8 +175,12 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "Advanced Precalculus with Differential Calculus and permission of the department",
-      "ppr": false
+      "prerequisite": [
+        "Advanced Precalculus with Differential Calculus",
+        "permission of the department"
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "CL STATISTICS ACCELERATED",
@@ -149,8 +189,12 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "A- or higher in BC Calculus or A or higher in AB Calculus and departmental approval",
-      "ppr": false
+      "prerequisite": [
+        "A- or higher in BC Calculus or A or higher in AB Calculus",
+        "departmental approval"
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "CL MULTIVARIABLE CALCULUS",
@@ -159,8 +203,12 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "CL Calculus BC and permission of the department",
-      "ppr": false
+      "prerequisite": [
+        "CL Calculus BC",
+        "permission of the department"
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "CL LINEAR ALGEBRA",
@@ -169,8 +217,9 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": null,
-      "ppr": false
+      "prerequisite": [],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "CL MATHEMATICAL MODELING WITH DIFFERENTIAL EQUATIONS",
@@ -179,8 +228,11 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": "CL Multivariable Calculus.",
-      "ppr": false
+      "prerequisite": [
+        "CL Multivariable Calculus."
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "TOPICS IN LOGIC",
@@ -192,8 +244,11 @@
         11,
         12
       ],
-      "prerequisite": "Geometry",
-      "ppr": false
+      "prerequisite": [
+        "Geometry"
+      ],
+      "ppr": false,
+      "duration": "full-year"
     },
     {
       "title": "INDEPENDENT STUDIES IN MATHEMATICS",
@@ -202,8 +257,9 @@
       "term": "term",
       "required": false,
       "grades": [],
-      "prerequisite": null,
-      "ppr": false
+      "prerequisite": [],
+      "ppr": false,
+      "duration": "full-year"
     }
   ]
 }
