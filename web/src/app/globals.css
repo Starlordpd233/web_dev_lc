@@ -37,7 +37,7 @@
   --sb-thumb: rgba(0,0,0,0.35);
   --sb-thumb-hover: rgba(0,0,0,0.5);
   --sb-track: transparent;
-  --topbar-h: 126px;
+  --topbar-h: 72px; /* compact header height for browser page */
   --drawer-w: 800px;
 }
 

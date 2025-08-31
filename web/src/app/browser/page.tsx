@@ -405,7 +405,14 @@ export default function Home() {
       {/* Top bar */}
       <header className={styles.topBar}>
         <div className={styles.topBarInner}>
-          <img src="/logo.svg" alt="Loomis Chaffee" className={styles.logo} />
+          <a
+            href="https://www.loomischaffee.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Loomis Chaffee website"
+          >
+            <img src="/logo.svg" alt="Loomis Chaffee" className={styles.logo} />
+          </a>
           <div className={styles.topBarActions}>
             <button 
               className={styles.resetOnboardingBtn}
@@ -492,7 +499,19 @@ export default function Home() {
           <div className={styles.courseList}>
             <div className={styles.cardGrid}>
               {filtered.map((c, i) => (
-                <div key={c.title + i} className={styles.card}>
+                <div
+                  key={c.title + i}
+                  className={styles.card}
+                  draggable
+                  onDragStart={(e) => {
+                    try {
+                      e.dataTransfer.setData('application/json', JSON.stringify({ title: c.title }));
+                    } catch {
+                      e.dataTransfer.setData('text/plain', c.title);
+                    }
+                    e.dataTransfer.effectAllowed = 'copy';
+                  }}
+                >
                   <div className={styles.cardHeader}>
                     <strong>{c.title}</strong>
                     <button className={styles.addButton} onClick={() => addToPlan(c)}>
@@ -536,20 +555,63 @@ export default function Home() {
         </div>
       </aside>
 
-      {/* Main container — Plan on the page (full width while drawer overlays) */}
+      {/* Main container — two columns with right Plan sidebar */}
       <div className={styles.container}>
-        <div>
+        <div className={styles.canvasArea}>
+          {/* Intentionally spacious area to keep focus on right plan panel */}
           <h2 className={styles.heading}>My Plan</h2>
-          <div className={styles.planGrid}>
-            {plan.map((p, i) => (
-              <div key={`${p.title}-${i}`} className={styles.planItem}>
-                <span>{p.title}</span>
-                <button className={styles.removeButton} onClick={() => removeFromPlan(i)}>Remove</button>
-              </div>
-            ))}
-          </div>
-          <button className={styles.printButton} onClick={printPlan}>Print / Save PDF</button>
+          <p className={styles.canvasHint}>
+            Browse courses in the left panel. Click "Add" or drag a course card into the My Plan area on the right.
+          </p>
         </div>
+
+        <section
+          id="plan"
+          className={styles.planSidebar}
+          onDragOver={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = 'copy'; }}
+          onDrop={(e) => {
+            e.preventDefault();
+            let title: string | null = null;
+            try {
+              const json = e.dataTransfer.getData('application/json');
+              if (json) title = JSON.parse(json)?.title ?? null;
+            } catch {}
+            if (!title) {
+              const txt = e.dataTransfer.getData('text/plain');
+              if (txt) title = txt;
+            }
+            if (title) {
+              const c = courses.find(cc => cc.title === title);
+              if (c) addToPlan(c);
+            }
+          }}
+          aria-label="My Plan drop zone"
+        >
+          <div className={styles.planSidebarHeader}>
+            <span>My Plan</span>
+            {plan.length > 0 && (
+              <button className={styles.printButton} onClick={printPlan} title="Print or save your plan as PDF">
+                Print / Save PDF
+              </button>
+            )}
+          </div>
+
+          {plan.length === 0 ? (
+            <div className={styles.dropEmpty}>
+              <div className={styles.dropEmptyIcon}>⬇</div>
+              <div className={styles.dropEmptyText}>Drag courses here or use Add</div>
+            </div>
+          ) : (
+            <div className={styles.planGrid}>
+              {plan.map((p, i) => (
+                <div key={`${p.title}-${i}`} className={styles.planItem}>
+                  <span>{p.title}</span>
+                  <button className={styles.removeButton} onClick={() => removeFromPlan(i)}>Remove</button>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
       </div>
     </>
   );
