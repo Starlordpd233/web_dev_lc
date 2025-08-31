@@ -444,19 +444,22 @@ export default function Home() {
           {/* Filters */}
           <div className={styles.filters}>
             <div className={styles.searchRow}>
-              <input
-                value={query}
-                onChange={e => setQuery(e.target.value)}
-                placeholder="Search title or department"
-                className={styles.input}
-              />
+              <div className={styles.searchInputWrapper}>
+                <input
+                  value={query}
+                  onChange={e => setQuery(e.target.value)}
+                  placeholder="Search courses, departments, or keywords..."
+                  className={styles.input}
+                />
+              </div>
+              
               <label className={styles.checkboxLabel}>
                 <input
                   type="checkbox"
                   checked={includeDescriptions}
                   onChange={e => setIncludeDescriptions(e.target.checked)}
                 />
-                Search descriptions
+                Search in course descriptions
               </label>
 
               {/* Department dropdown — canonical options */}
@@ -492,29 +495,33 @@ export default function Home() {
                 <div key={c.title + i} className={styles.card}>
                   <div className={styles.cardHeader}>
                     <strong>{c.title}</strong>
-                    <button className={styles.addButton} onClick={() => addToPlan(c)}>Add</button>
+                    <button className={styles.addButton} onClick={() => addToPlan(c)}>
+                      <span>Add</span>
+                    </button>
                   </div>
 
-                  {/* Subheading: Department • Grades offered */}
-                  <div className={styles.cardMeta}>
-                    <span>{(() => {
-                      const canon = canonicalizeDepartment(c.department);
-                      return canon !== 'Other' ? canon : (c.department || '—');
-                    })()}</span>
-                    {formatGrades(c.grades) ? <> • <span>{formatGrades(c.grades)}</span></> : null}
-                  </div>
-
-                  {c.tags?.length ? (
-                    <div className={styles.tagContainer}>
-                      {c.tags.map(tag => (
-                        <span key={tag} className={styles.tagChip}>
-                          {tag}
-                        </span>
-                      ))}
+                  <div className={styles.cardContent}>
+                    {/* Subheading: Department • Grades offered */}
+                    <div className={styles.cardMeta}>
+                      <span>{(() => {
+                        const canon = canonicalizeDepartment(c.department);
+                        return canon !== 'Other' ? canon : (c.department || '—');
+                      })()}</span>
+                      {formatGrades(c.grades) ? <> • <span>{formatGrades(c.grades)}</span></> : null}
                     </div>
-                  ) : null}
 
-                  {c.description && <p className={styles.description}>{c.description}</p>}
+                    {c.tags?.length ? (
+                      <div className={styles.tagContainer}>
+                        {c.tags.map(tag => (
+                          <span key={tag} className={styles.tagChip}>
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    ) : null}
+
+                    {c.description && <p className={styles.description}>{c.description}</p>}
+                  </div>
 
                   {(c.prerequisiteText || c.permissionRequired) && (
                     <div className={styles.prereqBanner}>
