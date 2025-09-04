@@ -165,11 +165,7 @@ export default function LoginPage() {
           style={{ backgroundImage: `url('${bgUrl}')` }}
           aria-hidden="true"
         />
-        <div className={styles.backgroundPattern} aria-hidden="true" />
         <div className={styles.vignetteOverlay} aria-hidden="true" />
-        <div className={styles.gradientOrb} style={{ left: "15%", top: "20%", animationDelay: "0s" }} />
-        <div className={styles.gradientOrb} style={{ left: "85%", top: "70%", animationDelay: "5s" }} />
-        <div className={styles.gradientOrb} style={{ left: "75%", top: "15%", animationDelay: "10s" }} />
 
         {/* Floating particles (CSS variables control size/duration/drift/opacity) */}
         <div
