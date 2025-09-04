@@ -20,25 +20,12 @@ export default function LoginPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [isPageLoaded, setIsPageLoaded] = useState(false);
 
-  // Background image: prefer RAW DNG, fall back to PNG if not decodable
-  const [bgUrl, setBgUrl] = useState<string>("/frame1_background.DNG");
+  // Background: use provided JPG; fall back to PNG if it fails to load
+  const [bgUrl, setBgUrl] = useState<string>("/frame1_background.jpg");
   useEffect(() => {
-    let canceled = false;
-    (async () => {
-      try {
-        const res = await fetch("/frame1_background.DNG");
-        const blob = await res.blob();
-        // Many browsers cannot decode DNG; try to create an image bitmap
-        // If it throws, we will fall back to PNG
-        // Some environments may not support createImageBitmap on RAW; catch errors
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        const ok = await createImageBitmap(blob).then(() => true).catch(() => false);
-        if (!ok && !canceled) setBgUrl("/lcphotoedited.png");
-      } catch {
-        if (!canceled) setBgUrl("/lcphotoedited.png");
-      }
-    })();
-    return () => { canceled = true; };
+    const img = new Image();
+    img.onerror = () => setBgUrl("/lcphotoedited.png");
+    img.src = "/frame1_background.jpg";
   }, []);
 
   useEffect(() => {
