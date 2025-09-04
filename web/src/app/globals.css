@@ -8,8 +8,22 @@
 }
 
 :root {
+  /* Base */
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Loomis brand palette (from official guidelines) */
+  --brand-red: #98252b;      /* LC Red (Pantone 7622c) */
+  --brand-gray: #323E48;     /* LC Gray (Pantone 432c) */
+  --brand-cupola: #5CB8B7;   /* Secondary */
+  --brand-pelican: #B6B09C;  /* Secondary */
+  --brand-meadow: #FED16D;   /* Secondary */
+  --brand-brick: #C25131;    /* Accent */
+  --brand-river: #4E738A;    /* Accent */
+
+  /* Typography stacks per guidelines (with licensed font fallbacks) */
+  --font-serif: 'Adobe Caslon Pro', Georgia, 'Times New Roman', Times, serif;
+  --font-sans: 'Gotham Narrow', 'Proxima Nova', 'Inter', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 
   /* Shared UI tokens (used by onboarding, browser, planner) */
   --text: #0a0a0a;
@@ -20,14 +34,14 @@
   --card-text: #0a0a0a;
   --chip-border: #cccccc;
   --chip-text: #0a0a0a;
-  --accent: #98252b;
+  --accent: var(--brand-red);
   --radius: 14px;
 
   --radius-sm: 8px;
   --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
   --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
-  --primary: #0070f3;
-  --primary-hover: #005ec2;
+  --primary: var(--brand-red);
+  --primary-hover: #7a1f1f; /* derived hover for brand red */
   --danger: #e53e3e;
   --danger-hover: #c53030;
   --success: #4caf50;
@@ -94,9 +108,15 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings use serif brand stack */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  color: var(--text);
 }
 
 /* Simple fixed header with wordmark top-left */
@@ -110,8 +130,8 @@ body {
   justify-content: space-between;
   padding: 8px 12px;
   z-index: 1000;
-  /* use transparent so it overlays existing UIs without altering themes */
-  background: transparent;
+  background: rgba(50, 62, 72, 0.85); /* brand gray w/ slight transparency */
+  backdrop-filter: blur(4px);
 }
 
 .site-wordmark {
@@ -127,9 +147,9 @@ body {
 .theme-select {
   padding: 6px 8px;
   border-radius: 8px;
-  background: var(--card);
-  color: var(--card-text);
-  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
 }
 .sr-only {
   position: absolute;

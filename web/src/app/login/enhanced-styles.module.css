@@ -42,7 +42,7 @@
 
 /* Base styles - preserving all existing styles */
 .pageRoot {
-  font-family: 'Crimson Text', Georgia, serif;
+  font-family: var(--font-serif);
   background: linear-gradient(135deg, #f8f7f5 0%, #f5f3f0 100%);
   color: #2c3e50;
   height: 100vh; /* Changed for new header */
@@ -399,10 +399,8 @@
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #8b2323 0%, #a33c41 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--brand-red);
+  font-family: var(--font-serif);
 }
 
 .formContainer {
@@ -451,7 +449,7 @@
   border: none;
   border-radius: 12px;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: var(--font-sans);
   font-weight: 500;
   cursor: pointer;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -478,7 +476,7 @@
 .btn:hover::before { left: 100%; }
 
 .btnPrimary {
-  background: linear-gradient(135deg, #8b2323 0%, #9a2626 50%, #8b2323 100%);
+  background: linear-gradient(135deg, var(--brand-red) 0%, #9a2626 50%, var(--brand-red) 100%);
   background-size: 200% 200%;
   color: #fff;
   box-shadow: 
@@ -516,12 +514,12 @@
 
 .btnOutline {
   background: transparent;
-  color: #8b2323;
-  border: 2px solid #8b2323;
+  color: var(--brand-red);
+  border: 2px solid var(--brand-red);
 }
 
 .btnOutline:hover:not(:disabled) {
-  background: #8b2323;
+  background: var(--brand-red);
   color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(139,35,35,0.25);
@@ -633,7 +631,7 @@
   font-weight: 500;
   color: #2c3e50;
   font-size: 14px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: var(--font-sans);
   letter-spacing: 0.5px;
 }
 
@@ -643,7 +641,7 @@
   border: 2px solid #e0e0e0;
   border-radius: 8px;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: var(--font-sans);
   color: #2c3e50;
   background-color: #fff;
   transition: all 0.3s ease;
@@ -654,7 +652,7 @@
 
 .formInput:focus {
   outline: none;
-  border-color: #8b2323;
+  border-color: var(--brand-red);
   box-shadow: 0 0 0 3px rgba(139, 35, 35, 0.1);
   transform: translateY(-1px);
 }
@@ -664,7 +662,7 @@
 .formInput.inputError { border-color: #e74c3c; }
 
 .forgotLink {
-  color: #8b2323;
+  color: var(--brand-red);
   text-decoration: none;
   font-size: 14px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -790,4 +788,3 @@
   .pageRoot .welcomeText { background: #8b2323; -webkit-text-fill-color: initial; }
   .pageRoot .mottoChar { background: #8b2323; -webkit-text-fill-color: initial; }
 }
-

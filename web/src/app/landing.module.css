@@ -31,15 +31,17 @@
   font-weight: 700;
   color: #fff;
   text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+  font-family: var(--font-serif);
 }
 
-.highlight { color: var(--accent); }
+.highlight { color: var(--brand-red); }
 
 .subtitle {
   margin-top: 14px;
   color: #f1f1f1;
   opacity: 0.95;
   font-size: clamp(16px, 2vw, 20px);
+  font-family: var(--font-sans);
 }
 
 .ctaRow {
@@ -63,16 +65,16 @@
 }
 
 .primaryCta {
-  background: var(--accent);
+  background: var(--brand-red);
   color: #fff;
 }
 
-.primaryCta:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
+.primaryCta:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); background: var(--primary-hover); }
 
 .secondaryCta {
-  background: rgba(0,0,0,0.5);
+  background: rgba(50,62,72,0.8); /* brand gray overlay */
   color: #fff;
+  border-color: rgba(255,255,255,0.1);
 }
 
 .secondaryCta:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
-
