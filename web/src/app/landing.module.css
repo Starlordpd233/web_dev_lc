@@ -14,6 +14,7 @@
   background-position: center;
   filter: blur(3px) saturate(0.95);
   transform: scale(1.03);
+  animation: backdropPan 24s ease-in-out infinite;
 }
 
 .content {
@@ -23,6 +24,7 @@
   margin: 0 auto;
   padding: 0 20px;
   text-align: center;
+  animation: contentRise 700ms ease both;
 }
 
 .title {
@@ -32,6 +34,8 @@
   color: #fff;
   text-shadow: 0 2px 20px rgba(0,0,0,0.5);
   font-family: var(--font-serif);
+  letter-spacing: 0.01em;
+  animation: titleFloat 10s ease-in-out infinite;
 }
 
 .highlight { color: var(--brand-red); }
@@ -48,6 +52,7 @@
   display: inline-flex;
   gap: 12px;
   margin-top: 28px;
+  animation: ctaPop 900ms ease 150ms both;
 }
 
 .primaryCta,
@@ -62,6 +67,7 @@
   box-shadow: var(--shadow-sm);
   border: 1px solid rgba(255,255,255,0.15);
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  will-change: transform;
 }
 
 .primaryCta {
@@ -78,3 +84,24 @@
 }
 
 .secondaryCta:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
+
+@keyframes contentRise {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes titleFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes ctaPop {
+  0% { opacity: 0; transform: translateY(10px) scale(0.98); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes backdropPan {
+  0% { transform: scale(1.03) translate3d(0,0,0); }
+  50% { transform: scale(1.06) translate3d(10px,-8px,0); }
+  100% { transform: scale(1.03) translate3d(0,0,0); }
+}

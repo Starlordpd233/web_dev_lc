@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Script from "next/script";
 import type { CSSProperties } from "react";
 import styles from "./enhanced-styles.module.css";
 
@@ -21,14 +20,25 @@ export default function LoginPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [isPageLoaded, setIsPageLoaded] = useState(false);
 
-  // Hide global wordmark header on this route to avoid duplicates
+  // Background image: prefer RAW DNG, fall back to PNG if not decodable
+  const [bgUrl, setBgUrl] = useState<string>("/frame1_background.DNG");
   useEffect(() => {
-    if (typeof document !== "undefined") {
-      document.body.classList.add("hide-wordmark");
-      return () => {
-        document.body.classList.remove("hide-wordmark");
-      };
-    }
+    let canceled = false;
+    (async () => {
+      try {
+        const res = await fetch("/frame1_background.DNG");
+        const blob = await res.blob();
+        // Many browsers cannot decode DNG; try to create an image bitmap
+        // If it throws, we will fall back to PNG
+        // Some environments may not support createImageBitmap on RAW; catch errors
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        const ok = await createImageBitmap(blob).then(() => true).catch(() => false);
+        if (!ok && !canceled) setBgUrl("/lcphotoedited.png");
+      } catch {
+        if (!canceled) setBgUrl("/lcphotoedited.png");
+      }
+    })();
+    return () => { canceled = true; };
   }, []);
 
   useEffect(() => {
@@ -147,14 +157,6 @@ export default function LoginPage() {
 
   return (
     <>
-      {/* Hide global site header immediately to avoid duplicate wordmark */}
-      <Script
-        id="login-hide-wordmark"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `try{document.documentElement.classList.add('hide-wordmark');document.body.classList.add('hide-wordmark');}catch(e){}`,
-        }}
-      />
       {/* Accessible skip link */}
       <a href="#main" className={styles.skipLink}>Skip to content</a>
 
@@ -173,7 +175,7 @@ export default function LoginPage() {
         {/* Background image with a gentle Ken Burns motion */}
         <div
           className={styles.backgroundImageLayer}
-          style={{ backgroundImage: "url('/lcphotoedited.png')" }}
+          style={{ backgroundImage: `url('${bgUrl}')` }}
           aria-hidden="true"
         />
         <div className={styles.backgroundPattern} aria-hidden="true" />

@@ -17,13 +17,6 @@ export default function OnboardingPage({
 }: {
   showIntroDefault: boolean;
 }) {
-  // Hide the global wordmark header on this route to avoid duplicates
-  useEffect(() => {
-    if (typeof document !== "undefined") {
-      document.body.classList.add("hide-wordmark");
-      return () => { document.body.classList.remove("hide-wordmark"); };
-    }
-  }, []);
   // ----- Intro (cookie-driven; no flicker) -----
   const [showIntro, setShowIntro] = useState(showIntroDefault);
 

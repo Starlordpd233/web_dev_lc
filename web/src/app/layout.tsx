@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "./site-header";
 
 // Fonts are defined via local @font-face in globals.css to avoid network fetches during build.
 
@@ -16,13 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="site-header">
-          <img
-            src="/logo.svg"
-            alt="Loomis Chaffee"
-            className="site-wordmark"
-          />
-        </header>
+        <Header />
         {children}
       </body>
     </html>
