@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Script from "next/script";
 import type { CSSProperties } from "react";
 import styles from "./enhanced-styles.module.css";
 
@@ -146,6 +147,14 @@ export default function LoginPage() {
 
   return (
     <>
+      {/* Hide global site header immediately to avoid duplicate wordmark */}
+      <Script
+        id="login-hide-wordmark"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `try{document.documentElement.classList.add('hide-wordmark');document.body.classList.add('hide-wordmark');}catch(e){}`,
+        }}
+      />
       {/* Accessible skip link */}
       <a href="#main" className={styles.skipLink}>Skip to content</a>
 
@@ -153,7 +162,6 @@ export default function LoginPage() {
       <div className={styles.topBar}>
         <div className={styles.logoContainer}>
           <img src="/logo.svg" alt="LC" className={styles.topBarLogo} />
-          <div className={styles.topBarTitle}>Loomis Chaffee</div>
         </div>
       </div>
 
@@ -162,8 +170,12 @@ export default function LoginPage() {
         className={`${styles.pageRoot} ${isPageLoaded ? styles.pageLoaded : ""}`}
         aria-label="Login page"
       >
-        {/* Optional background image: set URL below and uncomment */}
-        {/* <div className={styles.backgroundImageLayer} style={{ backgroundImage: "url('/your-background.jpg')" }} aria-hidden="true" /> */}
+        {/* Background image with a gentle Ken Burns motion */}
+        <div
+          className={styles.backgroundImageLayer}
+          style={{ backgroundImage: "url('/lcphotoedited.png')" }}
+          aria-hidden="true"
+        />
         <div className={styles.backgroundPattern} aria-hidden="true" />
         <div className={styles.vignetteOverlay} aria-hidden="true" />
         <div className={styles.gradientOrb} style={{ left: "15%", top: "20%", animationDelay: "0s" }} />
@@ -421,4 +433,3 @@ export default function LoginPage() {
     </>
   );
 }
-

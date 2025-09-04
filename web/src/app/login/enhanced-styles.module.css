@@ -169,10 +169,17 @@
   background-size: cover;
   filter: saturate(0.85) contrast(1.05);
   pointer-events: none;
+  animation: kenBurns 24s ease-in-out infinite;
 }
 
 /* This keyframe is no longer used for the background pattern */
 @keyframes backgroundShift {}
+
+@keyframes kenBurns {
+  0%   { transform: scale(1) translate3d(0, 0, 0); }
+  50%  { transform: scale(1.06) translate3d(8px, -6px, 0); }
+  100% { transform: scale(1) translate3d(0, 0, 0); }
+}
 
 .gradientOrb {
   position: fixed;
@@ -346,30 +353,22 @@
 }
 
 .mottoChar {
+  font-family: var(--font-serif);
   font-style: italic;
+  font-weight: 700;
   font-size: 40px;
   letter-spacing: 0.05em;
+  color: var(--brand-red);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: inline-block;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  font-weight: 600;
-  background: linear-gradient(135deg, #8b2323 0%, #a02828 50%, #8b2323 100%);
-  background-size: 200% 200%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateZ(0);
 }
 
 .mottoSpace { width: 0.6ch; display: inline-block; }
 
-.mottoChar:nth-child(odd)  { animation: shimmer 6s ease-in-out infinite; }
-.mottoChar:nth-child(even) { animation: shimmer 6s ease-in-out 1.5s infinite; }
-
-@keyframes shimmer {
-  0%, 100% { background-position: 0% 50%; transform: translateZ(0) rotate(0deg) scale(1); }
-  50% { background-position: 100% 50%; transform: translateZ(15px) rotate(2deg) scale(1.02); }
-}
+.mottoChar:nth-child(odd)  { transform: translateZ(0); }
+.mottoChar:nth-child(even) { transform: translateZ(0); }
 
 .mottoGlow {
   position: absolute;
