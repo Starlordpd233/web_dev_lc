@@ -5,8 +5,12 @@ import { NextResponse } from "next/server";
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // Only handle /onboarding (and children)
-  if (pathname === "/onboarding" || pathname.startsWith("/onboarding/")) {
+  // Handle onboarding and login routes on the same origin/port.
+  // If a user already has complete prefs, skip these and send to /browser.
+  const isOnboarding = pathname === "/onboarding" || pathname.startsWith("/onboarding/");
+  const isLogin = pathname === "/login" || pathname.startsWith("/login/");
+
+  if (isOnboarding || isLogin) {
     const raw = req.cookies.get("catalogPrefs")?.value || null;
 
     // --- DEBUG HEADERS so you can see it ran ---
@@ -46,5 +50,10 @@ export function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/onboarding", "/onboarding/:path*"],
+  matcher: [
+    "/onboarding",
+    "/onboarding/:path*",
+    "/login",
+    "/login/:path*",
+  ],
 };

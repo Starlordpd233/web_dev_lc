@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server (this project listens on port 3001 by default):
 
 ```bash
 npm run dev
@@ -14,11 +14,17 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3001 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Key routes (single app, single port):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/` – Landing page
+- `/login` – Login screen (in-app navigation to `/onboarding`)
+- `/onboarding` – New-user wizard; redirects to `/browser` if already complete
+- `/browser` – Course browser
+- `/planner` – Planner
+
+All navigation lives under the same origin and port for best-practice UX.
 
 ## Learn More
 
